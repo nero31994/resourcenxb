@@ -2,7 +2,7 @@ const cardsData = [
   {
     name: "Netflix",
     logo: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png",
-    url: "https://www.netflix.com"
+    url: "go:1"
   },
   {
     name: "Disney+",
