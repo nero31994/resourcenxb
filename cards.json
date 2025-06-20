@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Netflix",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png",
+    "url": "https://www.netflix.com"
+  },
+  {
+    "name": "Disney+",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Disney%2B_logo.svg",
+    "url": "https://www.disneyplus.com"
+  },
+  {
+    "name": "HBO Max",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e4/HBO_Max_Logo.svg",
+    "url": "https://www.hbomax.com"
+  },
+  {
+    "name": "Prime Video",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Prime_Video.png",
+    "url": "https://www.primevideo.com"
+  }
+]
