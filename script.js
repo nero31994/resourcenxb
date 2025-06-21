@@ -17,7 +17,7 @@ function renderCards(cards) {
         <img src="${card.logo}" alt="${card.name} Logo">
       </div>
       <h3>${card.name}</h3>
-      <a href="${card.url}" target="_blank">Visit</a>
+      <a href="${card.url}" target="_blank">PLAY</a>
     `;
     container.appendChild(cardElement);
   });
