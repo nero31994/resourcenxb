@@ -57,18 +57,18 @@
       },
         {
         "name": "AFN",
-        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397149/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/animax.png?cache=2025032",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397151/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/asian-food-network.png?cache=20250322042023",
         "url": "go:AFN"
       },
         {
-        "name": "ANIMAX",
-        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397149/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/animax.png?cache=2025032",
-        "url": "go:ANIMAX"
+        "name": "AXN",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397152/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/axn.png?cache=20250322042023",
+        "url": "go:AXN"
       },
          {
-        "name": "ANIMAX",
-        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397149/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/animax.png?cache=2025032",
-        "url": "go:ANIMAX"
+        "name": "BBC NEWS",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397152/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/bbc-news.png?cache=20250322042023",
+        "url": "go:BBCN"
       },
         {
         "name": "ANIMAX",
