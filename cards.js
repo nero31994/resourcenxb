@@ -26,28 +26,28 @@
         "url": "go:ALLTV"
       },
        {
-        "name": "Disney+",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Disney%2B_logo.svg",
-        "url": "https://www.disneyplus.com"
+        "name": "AL SAUDIYA ",
+        "logo": "https://https://res.cloudinary.com/lomi/image/upload/v1742397145/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/al-saudiya.png?cache=202",
+        "url": "go:ALS"
       },
       {
-        "name": "Disney+",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Disney%2B_logo.svg",
-        "url": "https://www.disneyplus.com"
+        "name": "ALIW CHANNEL",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397145/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/aliw-channel",
+        "url": "go:ALIW"
       },
       {
-        "name": "Disney+",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Disney%2B_logo.svg",
-        "url": "https://www.disneyplus.com"
+        "name": "ANC",
+        "logo": "https://res.cloudinary.com/dra1xqho7/image/upload/v1738848867/IPTV/Converge%20Vision/anc.png?cache=20250322042023",
+        "url": "go:ANC"
       },
       {
-        "name": "HBO Max",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e4/HBO_Max_Logo.svg",
-        "url": "https://www.hbomax.com"
+        "name": "ANIMAL PLANET",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397148/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/animal-planet.png?cache=",
+        "url": "go:ANIMAL"
       },
       {
-        "name": "Prime Video",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Prime_Video.png",
-        "url": "https://www.primevideo.com"
+        "name": "ANIMAX",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397149/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/animax.png?cache=2025032",
+        "url": "go:ANIMAX"
       }
     ];
