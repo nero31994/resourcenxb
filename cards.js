@@ -1,19 +1,19 @@
 
     const cardData = [
       {
-        "name": "Netflix",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png",
-        "url": "https://www.netflix.com"
+        "name": "ABC AUSTRALIA ",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397142/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/abc-australia.png?cache=",
+        "url": ""
       },
       {
-        "name": "Disney+",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Disney%2B_logo.svg",
-        "url": "https://www.disneyplus.com"
+        "name": "ALL JAZEERA ",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397143/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/al-jazeera.png?cache=202",
+        "url": "go:ALLJ"
       },
 {
-        "name": "Disney+",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Disney%2B_logo.svg",
-        "url": "https://www.disneyplus.com"
+        "name": "ALLTV",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397146/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/alltv.png?cache=20250322042023",
+        "url": "go:ALLTV"
       },
 {
         "name": "Disney+",
