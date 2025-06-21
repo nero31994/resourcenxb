@@ -49,5 +49,60 @@
         "name": "ANIMAX",
         "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397149/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/animax.png?cache=2025032",
         "url": "go:ANIMAX"
-      }
+      },
+        {
+        "name": "ANIMAX",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397149/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/animax.png?cache=2025032",
+        "url": "go:ANIMAX"
+      },
+        {
+        "name": "ANIMAX",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397149/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/animax.png?cache=2025032",
+        "url": "go:ANIMAX"
+      },
+        {
+        "name": "ANIMAX",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397149/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/animax.png?cache=2025032",
+        "url": "go:ANIMAX"
+      },
+         {
+        "name": "ANIMAX",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397149/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/animax.png?cache=2025032",
+        "url": "go:ANIMAX"
+      },
+        {
+        "name": "ANIMAX",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397149/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/animax.png?cache=2025032",
+        "url": "go:ANIMAX"
+      },
+        {
+        "name": "ANIMAX",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397149/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/animax.png?cache=2025032",
+        "url": "go:ANIMAX"
+      },
+        {
+        "name": "ANIMAX",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397149/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/animax.png?cache=2025032",
+        "url": "go:ANIMAX"
+      }, 
+        {
+        "name": "ANIMAX",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397149/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/animax.png?cache=2025032",
+        "url": "go:ANIMAX"
+      },
+        {
+        "name": "ANIMAX",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397149/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/animax.png?cache=2025032",
+        "url": "go:ANIMAX"
+      },
+        {
+        "name": "ANIMAX",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397149/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/animax.png?cache=2025032",
+        "url": "go:ANIMAX"
+      },
+        {
+        "name": "ANIMAX",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397149/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/animax.png?cache=2025032",
+        "url": "go:ANIMAX"
+        }
     ];
