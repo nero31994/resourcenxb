@@ -27,12 +27,12 @@
       },
        {
         "name": "AL SAUDIYA ",
-        "logo": "https://https://res.cloudinary.com/lomi/image/upload/v1742397145/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/al-saudiya.png?cache=202",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397145/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/al-saudiya.png?cache=2025",
         "url": "go:ALS"
       },
       {
         "name": "ALIW CHANNEL",
-        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397145/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/aliw-channel",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397145/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/aliw-channel-23.png?cach",
         "url": "go:ALIW"
       },
       {
