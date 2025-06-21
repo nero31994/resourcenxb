@@ -5,7 +5,6 @@ body {
   color: white;
   margin: 0;
   padding: 20px;
-  backdrop-filter: blur(0px); /* helps blend glassmorphism if supported */
 }
 
 h2 {
@@ -15,26 +14,38 @@ h2 {
 }
 
 .search-box {
-  text-align: center;
-  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
 }
 
 .search-box input {
   padding: 12px 20px;
   width: 80%;
-  max-width: 400px;
+  max-width: 500px;
   font-size: 16px;
-  border-radius: 12px;
-  border: none;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   outline: none;
-  backdrop-filter: blur(10px);
   background: rgba(255, 255, 255, 0.15);
   color: white;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  transition: 0.3s ease;
+  padding-left: 45px;
+  background-image: url('https://www.svgrepo.com/show/13691/search.svg');
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 15px center;
+}
+
+.search-box input:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
 }
 
 .search-box input::placeholder {
-  color: #ddd;
+  color: #eee;
 }
 
 .card-container {
@@ -51,14 +62,52 @@ h2 {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   border: 1px solid rgba(255, 255, 255, 0.18);
   overflow: hidden;
+  width: 50%;
   max-width: 250px;
-  width: 100%;
   text-align: center;
   transition: transform 0.3s ease;
   color: #fff;
 }
 
 .card:hover {
+  transform: scale(1.05);
+}
+
+.logo-container {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.logo-container img {
+  max-width: 90%;
+  max-height: 120px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.card a {
+  display: inline-block;
+  margin: 10px 0 20px;
+  padding: 10px 20px;
+  background: rgba(0, 123, 255, 0.2);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.card a:hover {
+  background: rgba(0, 123, 255, 0.4);
   transform: scale(1.05);
 }
 
