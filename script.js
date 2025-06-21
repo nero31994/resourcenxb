@@ -21,6 +21,8 @@ function renderCards(cards) {
     `;
     container.appendChild(cardElement);
   });
+
+  animateOnScroll(); // Trigger scroll animation observer
 }
 
 function handleSearch() {
@@ -29,6 +31,25 @@ function handleSearch() {
     card.name.toLowerCase().includes(query)
   );
   renderCards(filtered);
+}
+
+function animateOnScroll() {
+  const cards = document.querySelectorAll('.card');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target); // Animate once
+      }
+    });
+  }, {
+    threshold: 0.1
+  });
+
+  cards.forEach(card => {
+    observer.observe(card);
+  });
 }
 
 // Load from embedded JSON
