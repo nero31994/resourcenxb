@@ -101,13 +101,13 @@ const cardData = [
     name: "BS NITTELE",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742587910/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Group/Converge%20Vision/bs-nittele.png?cache=20250322042023",
     url: "go:BS NITTELE",
-    category: "News"
+    category: "International"
   },
   
   {
-    name: "BBC NEWS",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397152/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/bbc-news.png?cache=20250322042023",
-    url: "go:BBCN",
-    category: "News"
+    name: "BS FUJI",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397157/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/bs-fuji.png?cache=20250322042023",
+    url: "go:BS FUJI",
+    category: "International"
   }
 ];
