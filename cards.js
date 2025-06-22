@@ -152,34 +152,34 @@ const cardData = [
     category: "Education"
   }, 
     {
-    name: "",
-    logo: "",
-    url: "go:",
-    category: ""
+    name: "CINEMA ONE ",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397164/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cinemaone.png?cache=20250322042023",
+    url: "go:CINEMA ONE ",
+    category: "Movies"
   }, 
     {
-    name: "",
+    name: "CINEMAWORLD",
     logo: "",
-    url: "go:",
-    category: ""
+    url: "go:CINEMAWORLD",
+    category: "Movies"
   }, 
     {
-    name: "",
+    name: "CINEMAX",
     logo: "",
-    url: "go:",
-    category: ""
+    url: "go:CINEMAX",
+    category: "Movies"
   }, 
     {
-    name: "",
+    name: "CINEMO",
     logo: "",
-    url: "go:",
-    category: ""
+    url: "go:CINEMO",
+    category: "Movies"
   }, 
     {
-    name: "",
+    name: "CLTV36",
     logo: "",
-    url: "go:",
-    category: ""
+    url: "go:CLTV36",
+    category: "Education"
   }, 
     {
     name: "",
