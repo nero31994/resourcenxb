@@ -28,13 +28,7 @@ function renderCards(cards) {
 function handleSearchAndFilter() {
   const query = document.getElementById('searchInput').value.toLowerCase();
   const activeBtn = document.querySelector('.category-filter button.active');
-  const activeCategory = activeBtn ? activeBtn.dataset.category : null;
-
-  // Prevent showing any cards if no category is selected
-  if (!activeCategory) {
-    document.getElementById('cardContainer').innerHTML = "";
-    return;
-  }
+  const activeCategory = activeBtn ? activeBtn.dataset.category : "All";
 
   const filtered = allCards.filter(card => {
     const matchCategory = (activeCategory === "All" || card.category === activeCategory);
@@ -66,9 +60,8 @@ function animateOnScroll() {
 
 document.addEventListener('DOMContentLoaded', () => {
   allCards = cardData;
+  renderCards(allCards);
 
-  // Don't render anything initially
-  // Search input still works after category click
   document.getElementById('searchInput').addEventListener('input', handleSearchAndFilter);
 
   const categoryButtons = document.querySelectorAll('.category-filter button');
