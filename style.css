@@ -269,3 +269,6 @@ h2 {
 .bottom-nav button.active img {
   filter: brightness(1.5);
 }
+body {
+  padding-bottom: 70px; /* 👈 Equal or slightly more than .bottom-nav height */
+}  
