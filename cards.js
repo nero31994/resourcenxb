@@ -19,7 +19,7 @@ const cardData = [
   },
   {
     name: "AL JAZEERA",
-    logo: "143/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/al-jazeera.png?cache=20250322042023",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397143/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/al-jazeera.png?cache=20250322042023",
     url: "go:ALLJ",
     category: "News"
   },
@@ -31,7 +31,7 @@ const cardData = [
   },
   {
     name: "AL SAUDIYA",
-    logo: "loudinary.com/lomi/image/upload/v1742397145/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/al-saudiya.png?cache=20250322042023",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397145/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/al-saudiya.png?cache=20250322042023",
     url: "go:ALS",
     category: "International"
   },
@@ -49,7 +49,7 @@ const cardData = [
   },
   {
     name: "ANIMAL PLANET",
-    logo: "oudinary.com/lomi/image/upload/v1742397148/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/animal-planet.png?cache=20250322042023",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397148/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/animal-planet.png?cache=20250322042023",
     url: "go:ANIMAL",
     category: "Education"
   },
@@ -79,13 +79,13 @@ const cardData = [
   },
   {
     name: "BBC NEWS",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397152/.../bbc-news.png?cache=20250322042023",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397152/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/bbc-news.png?cache=20250322042023",
     url: "go:BBCN",
     category: "News"
   },
   {
     name: "BILYONARYO",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397152/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/bilyonaryo.png?cache=20250322042023",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397154/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/bilyonaryo-news-channel.png?cache=20250322042023",
     url: "go:BILYONARYO",
     category: "News"
   }
