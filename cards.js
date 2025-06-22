@@ -1,13 +1,13 @@
 const cardData = [
   {
     name: "ABC AUSTRALIA",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397142/.../abc-australia.png?cache=",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcd3GsIkKpllr-1eZlRKQvmX78Nw88nI6Bsw&s",
     url: "go:ABC",
     category: "International"
   },
   {
     name: "ABN AUSTRALIA",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397140/.../3abn-international.png?c",
+    logo: "https://static.wikia.nocookie.net/logopedia/images/8/88/3ABN_2011_stacked.svg/revision/latest/scale-to-width-down/250?cb=20230917194627",
     url: "go:ABN",
     category: "International"
   },
