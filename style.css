@@ -229,8 +229,8 @@ h2 {
 }
 
 .category-filter button img {
-  width: 60px !important;
-  height: 60px !important;
+  width: 120ppx !important;
+  height: 120px !important;
 }
 
 /* 🔍 Bigger and bolder search input */
