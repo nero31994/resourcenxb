@@ -4,6 +4,7 @@
         name: "ABC AUSTRALIA ",
         "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397142/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/abc-australia.png?cache=",
         "url": "go:ABC"
+          "category": "International"
       },
        {
         "name": "ABN AUSTRALIA",
