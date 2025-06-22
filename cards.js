@@ -183,79 +183,79 @@ const cardData = [
   }, 
     {
     name: "CNA",
-    logo: "",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
     url: "go:CNA",
     category: "News"
   }, 
     {
     name: "CNN",
-    logo: "",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cnn-international.png?cache=20250322042023",
     url: "go:CNN",
     category: "News"
   }, 
     {
     name: "CRIME INVESTIGATION",
-    logo: "",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/crime-investigation.png?cache=20250322042023",
     url: "go:CRIME INV",
     category: "International"
   }, 
     {
     name: "CTV",
-    logo: "",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/ctv.png?cache=20250322042023",
     url: "go:CTV",
     category: "International"
   }, 
     {
     name: "DAAI TV",
-    logo: "",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/daai-tv.png?cache=20250322042023",
     url: "go:DAAI TV",
     category: "International"
   }, 
     {
     name: "DISCOVERY ASIA",
-    logo: "",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/discovery-asia.png?cache=20250322042023",
     url: "go:DISCOVERY",
     category: "Education"
   }, 
     {
     name: "DISCOVERY HD",
-    logo: "",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397165/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/discovery-channel.png?cache=20250322042023",
     url: "go:DISCOVERYH",
     category: "Education"
   }, 
     {
     name: "DW",
-    logo: "",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/dw.png?cache=20250322042023",
     url: "go:DW",
     category: "International"
   }, 
     {
     name: "DZRH",
-    logo: "",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/dzrh.png?cache=20250322042023",
     url: "go:DZRH",
     category: "News"
   }, 
     {
     name: "EURO NEWS",
-    logo: "",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/euronews.png?cache=20250322042023",
     url: "go:EURO",
     category: "News"
   }, 
     {
     name: "EWTN",
-    logo: "",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/ewtn.png?cache=20250322042023",
     url: "go:EWTN",
     category: "International"
   }, 
     {
     name: "FASHION",
-    logo: "",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/fashion-tv.png?cache=20250322042023",
     url: "go:FASHION",
     category: "Education"
   }, 
     {
     name: "FILAM",
-    logo: "",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/filamtv.png?cache=20250322042023",
     url: "go:FILAM",
     category: "International"
   }, 
