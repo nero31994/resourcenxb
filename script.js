@@ -1,4 +1,5 @@
 let allCards = [];
+let selectedCategory = "All";
 
 function renderCards(cards) {
   const container = document.getElementById('cardContainer');
@@ -22,14 +23,18 @@ function renderCards(cards) {
     container.appendChild(cardElement);
   });
 
-  animateOnScroll(); // Trigger scroll animation observer
+  animateOnScroll();
 }
 
 function handleSearch() {
   const query = document.getElementById('searchInput').value.toLowerCase();
-  const filtered = allCards.filter(card =>
-    card.name.toLowerCase().includes(query)
-  );
+
+  const filtered = allCards.filter(card => {
+    const matchesSearch = card.name.toLowerCase().includes(query);
+    const matchesCategory = selectedCategory === "All" || card.category === selectedCategory;
+    return matchesSearch && matchesCategory;
+  });
+
   renderCards(filtered);
 }
 
@@ -40,7 +45,7 @@ function animateOnScroll() {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add('visible');
-        observer.unobserve(entry.target); // Animate once
+        observer.unobserve(entry.target);
       }
     });
   }, {
@@ -52,9 +57,20 @@ function animateOnScroll() {
   });
 }
 
-// Load from embedded JSON
 document.addEventListener('DOMContentLoaded', () => {
   allCards = cardData;
   renderCards(allCards);
+
+  // Search input listener
   document.getElementById('searchInput').addEventListener('input', handleSearch);
+
+  // Category button listeners
+  document.querySelectorAll('.category-filter button').forEach(button => {
+    button.addEventListener('click', () => {
+      document.querySelectorAll('.category-filter button').forEach(btn => btn.classList.remove('active'));
+      button.classList.add('active');
+      selectedCategory = button.dataset.category;
+      handleSearch();
+    });
+  });
 });
