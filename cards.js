@@ -103,11 +103,209 @@ const cardData = [
     url: "go:BS NITTELE",
     category: "International"
   },
-  
   {
     name: "BS FUJI",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397157/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/bs-fuji.png?cache=20250322042023",
     url: "go:BS FUJI",
     category: "International"
+  },
+  {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
+  }, 
+    {
+    name: "",
+    logo: "",
+    url: "go:",
+    category: ""
   }
+  
 ];
