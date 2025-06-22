@@ -159,25 +159,25 @@ const cardData = [
   }, 
     {
     name: "CINEMAWORLD",
-    logo: "",
-    url: "go:CINEMAWORLD",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397165/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cinemaworld.png?cache=20250322042023",
+    url: "go:CINEMAWORL",
     category: "Movies"
   }, 
     {
     name: "CINEMAX",
-    logo: "",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397165/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cinemax.png?cache=20250322042023",
     url: "go:CINEMAX",
     category: "Movies"
   }, 
     {
     name: "CINEMO",
-    logo: "",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397165/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cinemo-.png?cache=20250322042023",
     url: "go:CINEMO",
     category: "Movies"
   }, 
     {
     name: "CLTV36",
-    logo: "",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397165/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cltv.png?cache=20250322042023",
     url: "go:CLTV36",
     category: "Education"
   }, 
