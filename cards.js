@@ -110,7 +110,7 @@ const cardData = [
     category: "International"
   },
   {
-    name: "BS10 STAR CHANNEL",
+    name: "BS10 STAR",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397158/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/bs10-star-channel.png?cache=20250322042023",
     url: "go:BS10 STAR",
     category: "International"
@@ -146,7 +146,7 @@ const cardData = [
     category: "News"
   }, 
     {
-    name: "CGTN DOCUMENTARY",
+    name: "CGTN DOC.",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397163/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cgtn-documentary.png?cache=20250322042023",
     url: "go:CGTND",
     category: "Education"
@@ -194,7 +194,7 @@ const cardData = [
     category: "News"
   }, 
     {
-    name: "CRIME INVESTIGATION",
+    name: "CRIME INV.",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/crime-investigation.png?cache=20250322042023",
     url: "go:CRIME INV",
     category: "International"
@@ -260,46 +260,46 @@ const cardData = [
     category: "International"
   }, 
     {
-    name: "",
-    logo: "",
-    url: "go:",
-    category: ""
+    name: "FOX NEWS",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision//fox-news-channel.png?cache=20250322042023",
+    url: "go:FOX NEWS",
+    category: "News"
   }, 
     {
-    name: "",
-    logo: "",
-    url: "go:",
-    category: ""
+    name: "FRANCE 24",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/france-24.png?cache=20250322042023",
+    url: "go:FRANCE 24",
+    category: "News"
   }, 
     {
-    name: "",
-    logo: "",
-    url: "go:",
-    category: ""
+    name: "GLOBAL",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/global-trekker.png?cache=20250322042023",
+    url: "go:GLOBAL",
+    category: "Education"
   }, 
     {
-    name: "",
-    logo: "",
-    url: "go:",
-    category: ""
+    name: "GMA",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/gma.png?cache=20250322042023",
+    url: "go:GMA",
+    category: "Entertainment"
   }, 
     {
-    name: "",
-    logo: "",
-    url: "go:",
-    category: ""
+    name: "GOLDEN NATION",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/golden-nation-network.png?cache=20250322042023",
+    url: "go:GOLDEN NATION",
+    category: "Entertainment"
   }, 
     {
-    name: "",
-    logo: "",
-    url: "go:",
-    category: ""
+    name: "GTV",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/gtv.png?cache=20250322042023",
+    url: "go:GTV",
+    category: "Entertainment"
   }, 
     {
-    name: "",
-    logo: "",
-    url: "go:",
-    category: ""
+    name: "HALLYPOP",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/hallypop.png?cache=20250322042023",
+    url: "go:HALLYPOP",
+    category: "International"
   }, 
     {
     name: "",
