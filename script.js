@@ -1,5 +1,4 @@
 let allCards = [];
-let selectedCategory = "All";
 
 function renderCards(cards) {
   const container = document.getElementById('cardContainer');
@@ -26,13 +25,15 @@ function renderCards(cards) {
   animateOnScroll();
 }
 
-function handleSearch() {
+function handleSearchAndFilter() {
   const query = document.getElementById('searchInput').value.toLowerCase();
+  const activeBtn = document.querySelector('.category-filter button.active');
+  const activeCategory = activeBtn ? activeBtn.dataset.category : "All";
 
   const filtered = allCards.filter(card => {
-    const matchesSearch = card.name.toLowerCase().includes(query);
-    const matchesCategory = selectedCategory === "All" || card.category === selectedCategory;
-    return matchesSearch && matchesCategory;
+    const matchCategory = (activeCategory === "All" || card.category === activeCategory);
+    const matchSearch = card.name.toLowerCase().includes(query);
+    return matchCategory && matchSearch;
   });
 
   renderCards(filtered);
@@ -61,16 +62,14 @@ document.addEventListener('DOMContentLoaded', () => {
   allCards = cardData;
   renderCards(allCards);
 
-  // Search input listener
-  document.getElementById('searchInput').addEventListener('input', handleSearch);
+  document.getElementById('searchInput').addEventListener('input', handleSearchAndFilter);
 
-  // Category button listeners
-  document.querySelectorAll('.category-filter button').forEach(button => {
+  const categoryButtons = document.querySelectorAll('.category-filter button');
+  categoryButtons.forEach(button => {
     button.addEventListener('click', () => {
-      document.querySelectorAll('.category-filter button').forEach(btn => btn.classList.remove('active'));
+      categoryButtons.forEach(btn => btn.classList.remove('active'));
       button.classList.add('active');
-      selectedCategory = button.dataset.category;
-      handleSearch();
+      handleSearchAndFilter();
     });
   });
 });
