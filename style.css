@@ -202,3 +202,18 @@ h2 {
   background-position: 20px center;
   padding-left: 60px;
 }
+@media (min-width: 768px) {
+  .category-filter {
+    gap: 16px;
+  }
+
+  .category-filter button {
+    font-size: 1.1rem;
+    padding: 16px 24px;
+  }
+
+  .category-filter button img {
+    width: 48px;
+    height: 48px;
+  }
+}
