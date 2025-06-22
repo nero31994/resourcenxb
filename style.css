@@ -174,3 +174,7 @@ h2 {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   }
 }
+/* Hide card container when no category is selected or no results */
+#cardContainer:empty {
+  display: none;
+}
