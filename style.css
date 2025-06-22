@@ -226,18 +226,18 @@ h2 {
   background-position: 20px center !important;
   padding-left: 70px !important;
 }
-/* Bottom navigation style */
 .bottom-nav {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  margin: 0; /* 🔹 Remove any gap/margin */
+  padding: 8px 0; /* 🔹 Reduce padding for tighter fit */
+  background: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(12px);
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 10px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   z-index: 1000;
 }
