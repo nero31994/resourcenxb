@@ -272,3 +272,6 @@ h2 {
 body {
   padding-bottom: 70px; /* 👈 Equal or slightly more than .bottom-nav height */
 }  
+html {
+  scroll-behavior: smooth;
+}
