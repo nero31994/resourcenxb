@@ -182,82 +182,82 @@ const cardData = [
     category: "Education"
   }, 
     {
-    name: "",
+    name: "CNA",
     logo: "",
-    url: "go:",
-    category: ""
+    url: "go:CNA",
+    category: "News"
   }, 
     {
-    name: "",
+    name: "CNN",
     logo: "",
-    url: "go:",
-    category: ""
+    url: "go:CNN",
+    category: "News"
   }, 
     {
-    name: "",
+    name: "CRIME INVESTIGATION",
     logo: "",
-    url: "go:",
-    category: ""
+    url: "go:CRIME INV",
+    category: "International"
   }, 
     {
-    name: "",
+    name: "CTV",
     logo: "",
-    url: "go:",
-    category: ""
+    url: "go:CTV",
+    category: "International"
   }, 
     {
-    name: "",
+    name: "DAAI TV",
     logo: "",
-    url: "go:",
-    category: ""
+    url: "go:DAAI TV",
+    category: "International"
   }, 
     {
-    name: "",
+    name: "DISCOVERY ASIA",
     logo: "",
-    url: "go:",
-    category: ""
+    url: "go:DISCOVERY",
+    category: "Education"
   }, 
     {
-    name: "",
+    name: "DISCOVERY HD",
     logo: "",
-    url: "go:",
-    category: ""
+    url: "go:DISCOVERYH",
+    category: "Education"
   }, 
     {
-    name: "",
+    name: "DW",
     logo: "",
-    url: "go:",
-    category: ""
+    url: "go:DW",
+    category: "International"
   }, 
     {
-    name: "",
+    name: "DZRH",
     logo: "",
-    url: "go:",
-    category: ""
+    url: "go:DZRH",
+    category: "News"
   }, 
     {
-    name: "",
+    name: "EURO NEWS",
     logo: "",
-    url: "go:",
-    category: ""
+    url: "go:EURO",
+    category: "News"
   }, 
     {
-    name: "",
+    name: "EWTN",
     logo: "",
-    url: "go:",
-    category: ""
+    url: "go:EWTN",
+    category: "International"
   }, 
     {
-    name: "",
+    name: "FASHION",
     logo: "",
-    url: "go:",
-    category: ""
+    url: "go:FASHION",
+    category: "Education"
   }, 
     {
-    name: "",
+    name: "FILAM",
     logo: "",
-    url: "go:",
-    category: ""
+    url: "go:FILAM",
+    category: "International"
   }, 
     {
     name: "",
