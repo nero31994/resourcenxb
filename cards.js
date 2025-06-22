@@ -71,9 +71,9 @@
         "url": "go:BBCN"
       },
         {
-        "name": "ANIMAX",
-        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397149/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/animax.png?cache=2025032",
-        "url": "go:ANIMAX"
+        "name": "BILYONARYO",
+        "logo": "https://res.cloudinary.com/lomi/image/upload/v1742397154/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/bilyonaryo-news-channel.png?cache=20250322042023",
+        "url": "go:BILYONARYO"
       },
         {
         "name": "ANIMAX",
