@@ -73,7 +73,7 @@ const cardData = [
   },
   {
     name: "AXN",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397152/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/bbc-news.png?cache=20250322042023",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397152/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/axn.png?cache=20250322042023",
     url: "go:AXN",
     category: "Entertainment"
   },
