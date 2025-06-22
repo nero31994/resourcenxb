@@ -110,46 +110,46 @@ const cardData = [
     category: "International"
   },
   {
-    name: "",
-    logo: "",
-    url: "go:",
-    category: ""
+    name: "BS10 STAR CHANNEL",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397158/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/bs10-star-channel.png?cache=20250322042023",
+    url: "go:BS10 STAR",
+    category: "International"
   }, 
     {
-    name: "",
-    logo: "",
-    url: "go:",
-    category: ""
+    name: "CARTOON NETWORK",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397159/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cartoon-network.png?cache=20250322042023",
+    url: "go:CARTOON NE",
+    category: "Anime"
   }, 
     {
-    name: "",
-    logo: "",
-    url: "go:",
-    category: ""
+    name: "CARTOONITO",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397160/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cartoonito.png?cache=20250322042023",
+    url: "go:CARTOON",
+    category: "Anime"
   }, 
     {
-    name: "",
-    logo: "",
-    url: "go:",
-    category: ""
+    name: "CCTV4",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397161/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cctv-4.png?cache=20250322042023",
+    url: "go:CCTV4",
+    category: "News"
   }, 
     {
-    name: "",
-    logo: "",
-    url: "go:",
-    category: ""
+    name: "CELESTIAL",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397162/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/celestial-classic-movies.png?cache=20250322042023",
+    url: "go:CELESTIAL",
+    category: "International"
   }, 
     {
-    name: "",
-    logo: "",
-    url: "go:",
-    category: ""
+    name: "CGTN",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397164/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cgtn.png?cache=20250322042023",
+    url: "go:CGTN",
+    category: "News"
   }, 
     {
-    name: "",
-    logo: "",
-    url: "go:",
-    category: ""
+    name: "CGTN DOCUMENTARY",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397163/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cgtn-documentary.png?cache=20250322042023",
+    url: "go:CGTND",
+    category: "Education"
   }, 
     {
     name: "",
