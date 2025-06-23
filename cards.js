@@ -350,6 +350,66 @@ const cardData = [
     category: "Entertainment"
   },
   {
+    name: "KBS KOREA",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/kbs-korea.png?cache=20250322042023",
+    url: "go:KBS KOR",
+    category: "International"
+  },
+  {
+    name: "KBS WORLD",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/kbs-world.png?cache=20250322042023",
+    url: "go:KBS WORLD",
+    category: "International"
+  },
+  {
+    name: "KIX",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/kix.png?cache=20250322042023",
+    url: "go:KIX",
+    category: "International"
+  },
+  {
+    name: "KNOWLEDGE",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/knowledge-channel.png?cache=20250322042023",
+    url: "go:KNOWLEDGE",
+    category: "Education"
+  },
+  {
+    name: "LIFETIME",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/lifetime.png?cache=20250322042023",
+    url: "go:LIFETIME",
+    category: "Education"
+  },
+  {
+    name: "LIGHT TV",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/light-tv.png?cache=20250322042023",
+    url: "go:LIGHT",
+    category: "NEWS"
+  },
+  {
+    name: "LIVING ASIA",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/living-asia.png?cache=20250322042023",
+    url: "go:LIVING",
+    category: "Education"
+  },
+  {
+    name: "LOTUS MACAU",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/lotus-macau.png?cache=20250322042023",
+    url: "go:LOTUS",
+    category: "Entertainment"
+  },
+  {
+    name: "METRO CHANNEL",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/metro-channel.png?cache=20250322042023",
+    url: "go:METRO",
+    category: "Movies"
+  },
+  {
+    name: "MINDANOW",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/mindanow-network.png?cache=20250322042023",
+    url: "go:MINDANOW",
+    category: "News"
+  },
+  {
     name: "",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
     url: "go:",
