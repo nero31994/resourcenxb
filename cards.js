@@ -410,46 +410,46 @@ const cardData = [
     category: "News"
   },
   {
-    name: "",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
-    url: "go:",
+    name: "MOTOR VISION",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/motorvision-.png?cache=20250322042023",
+    url: "go:MOTOR",
+    category: "Sports"
+  },
+  {
+    name: "MYX",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/myx.png?cache=20250322042023",
+    url: "go:MYX",
+    category: "Entertainment"
+  },
+  {
+    name: "NBA TV PH",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/nba-tv-philippines.png?cache=20250322042023",
+    url: "go:NBA",
+    category: "Sports"
+  },
+  {
+    name: "NET25",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/net25.png?cache=20250322042023",
+    url: "go:NET25",
+    category: "News"
+  },
+  {
+    name: "NHK BS",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/nhk-bs.png?cache=20250322042023",
+    url: "go:NHK BS",
+    category: "International"
+  },
+  {
+    name: "NHK JAPAN",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/nhk-world-japan.png?cache=20250322042023",
+    url: "go:NHK",
     category: ""
   },
   {
-    name: "",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
-    url: "go:",
-    category: ""
-  },
-  {
-    name: "",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
-    url: "go:",
-    category: ""
-  },
-  {
-    name: "",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
-    url: "go:",
-    category: ""
-  },
-  {
-    name: "",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
-    url: "go:",
-    category: ""
-  },
-  {
-    name: "",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
-    url: "go:",
-    category: ""
-  },
-  {
-    name: "",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
-    url: "go:",
-    category: ""
+    name: "NICK JR.",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/nick-jr..png?cache=20250322042023",
+    url: "go:NICK",
+    category: "ANIME"
   },
   {
     name: "",
