@@ -507,25 +507,25 @@ const cardData = [
   },
   {
     name: "P.SPORTS",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
-    url: "go:P.SPORTS",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/premiere-sports.png?cache=20250322042023",
+    url: "go:P. SPORTS",
     category: "Sports"
   },
   {
     name: "P.SPORTS2",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/premiere-sports-2.png?cache=20250322042023",
     url: "go:P.SPORTS2",
     category: "Sports"
   },
   {
     name: "PTV",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/ptv.png?cache=20250322042023",
     url: "go:PTV",
     category: "News"
   },
   {
     name: "",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/radio-maria.png?cache=20250322042023",
     url: "go:",
     category: ""
   },
