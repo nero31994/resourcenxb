@@ -609,13 +609,13 @@ const cardData = [
   },
   {
     name: "TBN",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/tbn-asia.png?cache=20250322042023",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742587971/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Group/Converge%20Vision/tbn-asia.png?cache=20250322042023",
     url: "go:TBN",
     category: "Education"
   },
   {
     name: "",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/tbn-inspire.png?cache=20250322042023",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742587971/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Group/Converge%20Vision/tbn-inspire.png?cache=20250322042023",
     url: "go:",
     category: ""
   },
