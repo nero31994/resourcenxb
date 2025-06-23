@@ -280,6 +280,6 @@ html {
   top: 0;
   z-index: 999;
   background: rgba(0, 0, 0, 0); /* Optional: background behind it */
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(2px);
   padding: 16px 0; /* Add vertical padding to prevent cut-off */
 }
