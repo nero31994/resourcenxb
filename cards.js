@@ -506,22 +506,22 @@ const cardData = [
     category: "Sports"
   },
   {
-    name: "",
+    name: "P.SPORTS",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
-    url: "go:",
-    category: ""
+    url: "go:P.SPORTS",
+    category: "Sports"
   },
   {
-    name: "",
+    name: "P.SPORTS2",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
-    url: "go:",
-    category: ""
+    url: "go:P.SPORTS2",
+    category: "Sports"
   },
   {
-    name: "",
+    name: "PTV",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
-    url: "go:",
-    category: ""
+    url: "go:PTV",
+    category: "News"
   },
   {
     name: "",
