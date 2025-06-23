@@ -116,7 +116,7 @@ const cardData = [
     category: "International"
   }, 
     {
-    name: "CARTOON NETWORK",
+    name: "CARTOON NET..",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397159/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cartoon-network.png?cache=20250322042023",
     url: "go:CARTOON NE",
     category: "Anime"
@@ -196,7 +196,7 @@ const cardData = [
     {
     name: "CRIME INV.",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/crime-investigation.png?cache=20250322042023",
-    url: "CRIME INVE",
+    url: "go:CRIME INVE",
     category: "International"
   }, 
     {
