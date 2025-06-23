@@ -279,7 +279,7 @@ html {
   position: sticky;
   top: 0;
   z-index: 999;
-  background: rgba(0, 0, 0, 0.6); /* Optional: background behind it */
-  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0); /* Optional: background behind it */
+  backdrop-filter: blur(4px);
   padding: 16px 0; /* Add vertical padding to prevent cut-off */
 }
