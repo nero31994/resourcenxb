@@ -524,64 +524,64 @@ const cardData = [
     category: "News"
   },
   {
-    name: "",
+    name: "RADIO MARIA",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/radio-maria.png?cache=20250322042023",
-    url: "go:",
+    url: "go:MARIA",
+    category: "News"
+  },
+  {
+    name: "ROCK INT.",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
+    url: "go:ROCK",
+    category: "Movies"
+  },
+  {
+    name: "RPTV",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
+    url: "go:RPTV",
+    category: "Entertainment"
+  },
+  {
+    name: "SMNI",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
+    url: "go:SMNI",
+    category: "News"
+  },
+  {
+    name: "S.SPORTS",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
+    url: "go:SOLAR",
+    category: "Sports"
+  },
+  {
+    name: "SOLARFLIX",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
+    url: "go:SOLARFLIX",
+    category: "Movies"
+  },
+  {
+    name: "S.EDGE",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
+    url: "go:EDGE",
     category: ""
   },
   {
-    name: "",
+    name: "SPOTV",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
-    url: "go:",
-    category: ""
+    url: "go:SPOTV",
+    category: "Sports"
   },
   {
-    name: "",
+    name: "SPOTV2",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
-    url: "go:",
-    category: ""
+    url: "go:SPOTV2",
+    category: "Sports"
   },
   {
-    name: "",
+    name: "TAP ACT.FLIX",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
-    url: "go:",
-    category: ""
-  },
-  {
-    name: "",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
-    url: "go:",
-    category: ""
-  },
-  {
-    name: "",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
-    url: "go:",
-    category: ""
-  },
-  {
-    name: "",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
-    url: "go:",
-    category: ""
-  },
-  {
-    name: "",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
-    url: "go:",
-    category: ""
-  },
-  {
-    name: "",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
-    url: "go:",
-    category: ""
-  },
-  {
-    name: "",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/cna.png?cache=20250322042023",
-    url: "go:",
-    category: ""
+    url: "go:TAP ACTION",
+    category: "Movies"
   },
   {
     name: "",
