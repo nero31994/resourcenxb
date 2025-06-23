@@ -196,7 +196,7 @@ const cardData = [
     {
     name: "CRIME INV.",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/crime-investigation.png?cache=20250322042023",
-    url: "go:CRIME INV",
+    url: "CRIME INVE",
     category: "International"
   }, 
     {
@@ -614,16 +614,16 @@ const cardData = [
     category: "Education"
   },
   {
-    name: "",
+    name: "TBN INS.",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742587971/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Group/Converge%20Vision/tbn-inspire.png?cache=20250322042023",
-    url: "go:",
-    category: ""
+    url: "go:TBN INS.",
+    category: "Education"
   },
   {
-    name: "",
+    name: "TELERADYO",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/teleradyo-serbisyo.png?cache=20250322042023",
-    url: "go:",
-    category: ""
+    url: "go:TELERADYO",
+    category: "News"
   }
   
 ];
