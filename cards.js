@@ -627,7 +627,7 @@ const cardData = [
   },
   {
     name: "PBA",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742587971/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Group/Converge%20Vision/pba.png?cache=20250322042023",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742395066/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Cignal%20Play/pba-rush.png?cache=20250322042023",
     url: "go:PBA",
     category: "Sports"
   }
