@@ -624,6 +624,12 @@ const cardData = [
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/teleradyo-serbisyo.png?cache=20250322042023",
     url: "go:TELERADYO",
     category: "News"
+  },
+  {
+    name: "PBA",
+    logo: "https://res.cloudinary.com/lomi/image/upload/v1742587971/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Group/Converge%20Vision/pba.png?cache=20250322042023",
+    url: "go:PBA",
+    category: "Sports"
   }
   
 ];
