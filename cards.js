@@ -286,7 +286,7 @@ const cardData = [
     {
     name: "GOLDEN NATION",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/golden-nation-network.png?cache=20250322042023",
-    url: "go:GOLDEN NATION",
+    url: "go:GOLDEN NAT",
     category: "Entertainment"
   }, 
     {
