@@ -1,31 +1,31 @@
 const channels = [
   {
     name: "ABC AUSTRALIA",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397142/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/abc-australia.png?cache=20250322042023",
+    logo: "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/ABC_Australia_logo.svg/350px-ABC_Australia_logo.svg.pngision/abc-australia.png?cache=20250322042023",
     url: "go:ABC",
     category: "International"
   },
   {
     name: "ABN AUSTRALIA",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397140/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/3abn-international.png?cache=20250322042023",
+    logo: "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/ABC_Australia_logo.svg/350px-ABC_Australia_logo.svg.pngision/3abn-international.png?cache=20250322042023",
     url: "go:ABN",
     category: "International"
   },
   {
     name: "A2Z",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397141/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/a2z.png?cache=20250322042023",
+    logo: "https://i.imgur.com/3myn4zH.png%20Vision/a2z.png?cache=20250322042023",
     url: "go:A2Z",
     category: "Entertainment"
   },
   {
     name: "AL JAZEERA",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397143/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/al-jazeera.png?cache=20250322042023",
+    logo: "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/aljazeera-uk.pngision/al-jazeera.png?cache=20250322042023",
     url: "go:ALLJ",
     category: "News"
   },
   {
     name: "ALLTV",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397146/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/alltv.png?cache=20250322042023",
+    logo: "https://brandlogo.org/wp-content/uploads/2024/05/All-TV-Logo-300x300.png.webp%20Vision/alltv.png?cache=20250322042023",
     url: "go:ALLTV",
     category: "Entertainment"
   },
@@ -37,31 +37,31 @@ const channels = [
   },
   {
     name: "ALIW CHANNEL",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397145/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/aliw-channel-23.png?cache=20250322042023",
+    logo: "https://static.wikia.nocookie.net/logopedia/images/a/a4/ALIW-Channel-23.png/%20Vision/aliw-channel-23.png?cache=20250322042023",
     url: "go:ALIW",
     category: "Entertainment"
   },
   {
     name: "ANC",
-    logo: "https://res.cloudinary.com/dra1xqho7/image/upload/v1738848867/IPTV/Converge%20Vision/anc.png?cache=20250322042023",
+    logo: "https://static.wikia.nocookie.net/russel/images/4/4c/ANC_Logo_2015.png",
     url: "go:ANC",
     category: "News"
   },
   {
     name: "ANIMAL PLANET",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397148/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/animal-planet.png?cache=20250322042023",
+    logo: "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/animal-planet-int.png/animal-planet.png?cache=20250322042023",
     url: "go:ANIMAL",
     category: "Education"
   },
   {
     name: "ANIMAX",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397149/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/animax.png?cache=20250322042023",
+    logo: "https://i.imgur.com/b5YKiRd.png%20Vision/animax.png?cache=20250322042023",
     url: "go:ANIMAX",
     category: "Anime"
   },
   {
     name: "ARIRANG",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397150/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/arirang.png?cache=20250322042023",
+    logo: "https://i.imgur.com/2NYcYrg.png%20Vision/arirang.png?cache=20250322042023",
     url: "go:ARIRANG",
     category: "International"
   },
