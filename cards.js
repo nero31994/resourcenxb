@@ -383,7 +383,7 @@ const channels = [
     name: "LIGHT TV",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/light-tv.png?cache=20250322042023",
     url: "go:LIGHT",
-    category: "NEWS"
+    category: "News"
   },
   {
     name: "LIVING ASIA",
@@ -443,19 +443,19 @@ const channels = [
     name: "NHK JAPAN",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/nhk-world-japan.png?cache=20250322042023",
     url: "go:NHK",
-    category: ""
+    category: "International"
   },
   {
     name: "NICK JR.",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/nick-jr..png?cache=20250322042023",
     url: "go:NICK",
-    category: "ANIME"
+    category: "Anime"
   },
   {
     name: "NICKELODEON",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/nickelodeon.png?cache=20250322042023",
     url: "go:NICKEL",
-    category: "ANIME"
+    category: "Anime"
   },
   {
     name: "ONE NEWS",
@@ -479,7 +479,7 @@ const channels = [
     name: "HIMALA",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/oras-ng-himala.png?cache=20250322042023",
     url: "go:ONH",
-    category: ""
+    category: "Education"
   },
   {
     name: "PBI",
@@ -497,7 +497,7 @@ const channels = [
     name: "P.EXTREME",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/pinoy-xtreme-channel.png?cache=20250322042023",
     url: "go:EXTREME",
-    category: ""
+    category: "Sports"
   },
   {
     name: "P. FOOTBALL",
@@ -563,7 +563,7 @@ const channels = [
     name: "S.EDGE",
     logo: "https://res.cloudinary.com/lomi/image/upload/v1742397169/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/sportdigital-edge.png?cache=20250322042023",
     url: "go:EDGE",
-    category: ""
+    category: "Sports"
   },
   {
     name: "SPOTV",
