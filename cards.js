@@ -1,7 +1,7 @@
 const channels = [
   {
     name: "ABC AUSTRALIA",
-    logo: "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/ABC_Australia_logo.svg/350px-ABC_Australia_logo.svg.pngision/abc-australia.png?cache=20250322042023",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFaShNxlHbyOkEgiygKupowwV1eFEbyvOSvg&usqp=CAU",
     url: "go:ABC",
     category: "International"
   },
@@ -19,25 +19,25 @@ const channels = [
   },
   {
     name: "AL JAZEERA",
-    logo: "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/aljazeera-uk.pngision/al-jazeera.png?cache=20250322042023",
+    logo: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/1200px-Aljazeera_eng.svg.png",
     url: "go:ALLJ",
     category: "News"
   },
   {
     name: "ALLTV",
-    logo: "https://brandlogo.org/wp-content/uploads/2024/05/All-TV-Logo-300x300.png.webp%20Vision/alltv.png?cache=20250322042023",
+    logo: "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/ALLTV_Logo_2022.svg/2560px-ALLTV_Logo_2022.svg.png",
     url: "go:ALLTV",
     category: "Entertainment"
   },
   {
     name: "AL SAUDIYA",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397145/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/al-saudiya.png?cache=20250322042023",
+    logo: "https://upload.wikimedia.org/wikipedia/en/d/d6/Al-Saudia_TV_Logo_2018.pngng?cache=20250322042023",
     url: "go:ALS",
     category: "International"
   },
   {
     name: "ALIW CHANNEL",
-    logo: "https://static.wikia.nocookie.net/logopedia/images/a/a4/ALIW-Channel-23.png/%20Vision/aliw-channel-23.png?cache=20250322042023",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/ABC_logo.svg/1200px-ABC_logo.svg.png",
     url: "go:ALIW",
     category: "Entertainment"
   },
@@ -49,7 +49,7 @@ const channels = [
   },
   {
     name: "ANIMAL PLANET",
-    logo: "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/animal-planet-int.png/animal-planet.png?cache=20250322042023",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Animal_Planet.png",
     url: "go:ANIMAL",
     category: "Education"
   },
