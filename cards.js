@@ -6,7 +6,7 @@ const channels = [
     category: "International"
   },
   {
-    name: "ABN AUSTRALIA",
+    name: "ABN INTERNATIONAL",
     logo: "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/ABC_Australia_logo.svg/350px-ABC_Australia_logo.svg.pngision/3abn-international.png?cache=20250322042023",
     url: "go:ABN",
     category: "International"
