@@ -7,7 +7,7 @@ const channels = [
   },
   {
     name: "ABN INTERNATIONAL",
-    logo: "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/ABC_Australia_logo.svg/350px-ABC_Australia_logo.svg.pngision/3abn-international.png?cache=20250322042023",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/b/b8/Australian_Broadcasting_Corporation_logo_%281974-%29.svgng?cache=20250322042023",
     url: "go:ABN",
     category: "International"
   },
@@ -31,7 +31,7 @@ const channels = [
   },
   {
     name: "AL SAUDIYA",
-    logo: "https://upload.wikimedia.org/wikipedia/en/d/d6/Al-Saudia_TV_Logo_2018.pngng?cache=20250322042023",
+    logo: "https://upload.wikimedia.org/wikipedia/en/d/d6/Al-Saudia_TV_Logo_2018.png",
     url: "go:ALS",
     category: "International"
   },
@@ -67,13 +67,13 @@ const channels = [
   },
   {
     name: "AFN",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397151/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/asian-food-network.png?cache=20250322042023",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Asian_Food_Network.svg/asian-food-network.png?cache=20250322042023",
     url: "go:AFN",
     category: "Education"
   },
   {
     name: "AXN",
-    logo: "https://res.cloudinary.com/lomi/image/upload/v1742397152/KayLomiToWagNakawin/JokeLang/KungGagamitinLogoPaCreditNaLangAko/Salamat/IPTV/Converge%20Vision/axn.png?cache=20250322042023",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzMpELJrYH7D81zVpTgT7T96pw0EQCfsgD7A&s",
     url: "go:AXN",
     category: "Entertainment"
   },
