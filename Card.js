@@ -1,4 +1,4 @@
-<script>
+
     const CARDS = [
           { title: "Kapamilya Channel", href: "go:1", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJm6yEX2gKUoTEn-wvvXwWZaJ3Vp84BRaz3fKDLZbx6fEl98tBiS2TG7-i&s=10", desc: "ENTERTAINMENT", badge: "LIVE" },
           { title: "Kapamilya Channel HD", href: "go:2", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "LIVE" },
@@ -96,4 +96,4 @@
       const filtered = CARDS.filter(c => (c.title+" "+(c.desc||'')).toLowerCase().includes(term));
       render(filtered);
     });
-  </script>
+  
