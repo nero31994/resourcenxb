@@ -1,6 +1,6 @@
 
     const CARDS = [
-        { title: "Follow my Page", href: "https://www.facebook.com/share/g/1EnPc3hLcy/", image: "https://media.giphy.com/headers/facebook/FuLFvah0klRm.gif", desc: "Follow my Page for Updates", badge: "" },
+        { title: "Follow my Page", href: "go:FB", image: "https://media.giphy.com/headers/facebook/FuLFvah0klRm.gif", desc: "Follow my Page for Updates", badge: "" },
         
           { title: "Kapamilya Channel", href: "go:1", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJm6yEX2gKUoTEn-wvvXwWZaJ3Vp84BRaz3fKDLZbx6fEl98tBiS2TG7-i&s=10", desc: "ENTERTAINMENT", badge: "LIVE" },
           { title: "Kapamilya Channel HD", href: "go:2", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
@@ -29,7 +29,7 @@
 { title: "ONE NEWS", href: "go:24", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPbLZci3RQsYGdQ75VmeV0awxDlIbloB40HA&s", desc: "NEWS", badge: "LIVE" },
 { title: "CINEMO!", href: "go:25", image: "https://static.wikia.nocookie.net/russel/images/f/f2/Cine_Mo%21_3D_Logo_2011.png", desc: "MOVIES", badge: "LIVE" },
 { title: "CINEMA ONE", href: "go:26", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7fdSeKh8dSXO5PaFQF8_-NuO9UNfTtShJ06Vf41AjsAJ092qTUyI1kaU&s=10", desc: "MOVIES", badge: "LIVE" },
-{ title: "A2Z", href: "go:12", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-8xdzLPA6Bic5-37pV-BONJGnHRFlvygAg9bG79EpBQfD-y6pqBaF5ygk&s=101101144828", desc: "ENTERTAINMENT", badge: "LIVE" },
+{ title: "VIVA CINEMA", href: "go:27", image: "https://static.wikia.nocookie.net/tvfanon6528/images/2/2f/Viva_Cinema_%282021-.n.v.%29.png/revision/latest?cb=20210804092616", desc: "MOVIES", badge: "LIVE" },
 { title: "A2Z", href: "go:12", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-8xdzLPA6Bic5-37pV-BONJGnHRFlvygAg9bG79EpBQfD-y6pqBaF5ygk&s=101101144828", desc: "ENTERTAINMENT", badge: "LIVE" },
 
         { title: "A2Z", href: "go:12", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-8xdzLPA6Bic5-37pV-BONJGnHRFlvygAg9bG79EpBQfD-y6pqBaF5ygk&s=101101144828", desc: "ENTERTAINMENT", badge: "LIVE" },
