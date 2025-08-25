@@ -1,5 +1,7 @@
 
     const CARDS = [
+        { title: "Follow my Page", href: "https://www.facebook.com/share/g/1EnPc3hLcy/", image: "https://media.giphy.com/headers/facebook/FuLFvah0klRm.gif", desc: "Follow my Page for Updates", badge: "" },
+        
           { title: "Kapamilya Channel", href: "go:1", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJm6yEX2gKUoTEn-wvvXwWZaJ3Vp84BRaz3fKDLZbx6fEl98tBiS2TG7-i&s=10", desc: "ENTERTAINMENT", badge: "LIVE" },
           { title: "Kapamilya Channel HD", href: "go:2", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
           { title: "PBO", href: "go:3", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Pinoy_Box_Office_logo.svg/1200px-Pinoy_Box_Office_logo.svg.png", desc: "MOVIES", badge: "LIVE" },
@@ -23,10 +25,10 @@
 { title: "CLTV36", href: "go:20", image: "https://upload.wikimedia.org/wikipedia/en/b/ba/CLTV-36_Logo.jpeg", desc: "ENTERTAINMENT&NEWS", badge: "LIVE" },
 { title: "RJTV29", href: "go:21", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG2N65Hn4QKWrUMtbQdnMXlKqJp7HllAm6DlfLs5Q3VEvNztqgaLvFYKDD&s=10", desc: "ENTERTAINMENT&MUSIC", badge: "LIVE" },
 { title: "GNN", href: "go:22", image: "https://upload.wikimedia.org/wikipedia/commons/2/27/GNN_Logo_2025.png", desc: "ENTERTAINMENT", badge: "LIVE" },
-{ title: "ONE PH", href: "go:23", image: "https://i.imgur.com/gkluDe9.png", desc: "ENTERTAINMENT", badge: "LIVE" },
-{ title: "ONE NEWS", href: "go:24", image: "https://i.imgur.com/bpRiu54.png", desc: "NEWS", badge: "LIVE" },
+{ title: "ONE PH", href: "go:23", image: "https://www.meainbacolod.com/wp-content/uploads/2019/08/One-PH-logo.png", desc: "ENTERTAINMENT", badge: "LIVE" },
+{ title: "ONE NEWS", href: "go:24", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPbLZci3RQsYGdQ75VmeV0awxDlIbloB40HA&s", desc: "NEWS", badge: "LIVE" },
 { title: "CINEMO!", href: "go:25", image: "https://static.wikia.nocookie.net/russel/images/f/f2/Cine_Mo%21_3D_Logo_2011.png", desc: "MOVIES", badge: "LIVE" },
-{ title: "CINEMA ONE", href: "go:26", image: "https://static.wikia.nocookie.net/russel/images/9/94/Cinema_One_Logo_2020.png", desc: "MOVIES", badge: "LIVE" },
+{ title: "CINEMA ONE", href: "go:26", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7fdSeKh8dSXO5PaFQF8_-NuO9UNfTtShJ06Vf41AjsAJ092qTUyI1kaU&s=10", desc: "MOVIES", badge: "LIVE" },
 { title: "A2Z", href: "go:12", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-8xdzLPA6Bic5-37pV-BONJGnHRFlvygAg9bG79EpBQfD-y6pqBaF5ygk&s=101101144828", desc: "ENTERTAINMENT", badge: "LIVE" },
 { title: "A2Z", href: "go:12", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-8xdzLPA6Bic5-37pV-BONJGnHRFlvygAg9bG79EpBQfD-y6pqBaF5ygk&s=101101144828", desc: "ENTERTAINMENT", badge: "LIVE" },
 
