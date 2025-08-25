@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Donate — GCash</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg1:#0f1724;
+      --bg2:#071029;
+      --accent1:#00d166; /* gcash-like green */
+      --glass: rgba(255,255,255,0.06);
+      --card: rgba(255,255,255,0.03);
+      --muted: rgba(255,255,255,0.6);
+      --glass-border: rgba(255,255,255,0.06);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font-family:Inter,system-ui,Arial; -webkit-font-smoothing:antialiased;
+      background: radial-gradient(800px 400px at 10% 20%, rgba(0,209,102,0.06), transparent),
+                  radial-gradient(600px 300px at 90% 80%, rgba(0,109,255,0.04), transparent),
+                  linear-gradient(180deg,var(--bg1),var(--bg2));
+      color:#e9f0f8;
+      display:flex; align-items:center; justify-content:center; padding:28px;
+    }
+    .wrap{width:100%; max-width:920px;}
+
+    .card{
+      background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));
+      border-radius:18px; padding:28px; box-shadow: 0 8px 30px rgba(2,6,23,0.6);
+      border:1px solid var(--glass-border); backdrop-filter: blur(10px) saturate(120%);
+      display:grid; grid-template-columns: 360px 1fr; gap:20px; align-items:center;
+      position:relative;
+    }
+
+    .left{
+      display:flex; flex-direction:column; gap:14px; align-items:center; justify-content:center;
+    }
+
+    .logo{
+      width:96px; height:96px; border-radius:18px; display:grid; place-items:center;
+      font-weight:800; font-size:22px; color:var(--bg2); background: linear-gradient(135deg,#00d166,#00a86b);
+      box-shadow: 0 8px 30px rgba(0,209,102,0.08); transform:translateZ(0);
+    }
+
+    h1{margin:0;font-size:20px;letter-spacing:-0.2px}
+    p.lead{margin:0;color:var(--muted)}
+
+    .qr-wrap{background:var(--card); padding:12px; border-radius:12px; display:flex; flex-direction:column; gap:10px; align-items:center;}
+
+    .qr{width:260px;height:260px; display:grid; place-items:center; border-radius:8px; overflow:hidden; background:white;}
+
+    .barcode{width:100%; height:72px; display:flex; align-items:center; justify-content:center}
+
+    .right{padding:6px 4px}
+
+    .info{display:flex; gap:12px; align-items:center; margin-bottom:6px}
+    .tag{background:linear-gradient(90deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02)); padding:8px 12px; border-radius:999px; color:var(--muted); font-weight:600}
+
+    .number{font-weight:700; font-size:20px; letter-spacing:1px}
+
+    .actions{display:flex; gap:12px; margin-top:16px}
+    .btn{border:0; padding:12px 16px; border-radius:12px; cursor:pointer; font-weight:700}
+    .btn-primary{background:linear-gradient(90deg,var(--accent1), #00b669); color:#042017; box-shadow: 0 8px 30px rgba(0,209,102,0.14);}
+    .btn-ghost{background:transparent; border:1px solid rgba(255,255,255,0.06); color:var(--muted)}
+
+    .copy{display:inline-flex; gap:8px; align-items:center}
+
+    .meta{margin-top:18px; color:var(--muted); font-size:13px}
+
+    /* subtle animated border */
+    .card::before{ content:""; position:absolute; inset:0; margin:auto; max-width:920px; border-radius:18px; pointer-events:none; z-index:0;}
+
+    /* tiny floating coins animation */
+    .coins{position:absolute; inset:0; pointer-events:none}
+    .coin{position:absolute; width:12px; height:12px; border-radius:50%; background:linear-gradient(180deg,#ffd166,#ff8a00); opacity:0.85; filter: blur(0.2px); animation:float 6s linear infinite}
+    .coin.x1{left:8%; top:10%; animation-delay:0s}
+    .coin.x2{left:80%; top:12%; animation-delay:1s}
+    .coin.x3{left:55%; top:85%; animation-delay:2s}
+    .coin.x4{left:20%; top:70%; animation-delay:3s}
+    @keyframes float{0%{transform:translateY(0) translateX(0) scale(1)}50%{transform:translateY(-30px) translateX(6px) scale(1.05)}100%{transform:translateY(0) translateX(0) scale(1)}}
+
+    /* responsive */
+    @media (max-width:760px){
+      .card{grid-template-columns:1fr; padding:18px}
+      .left{order:2}
+      .right{order:1}
+      .qr{width:200px;height:200px}
+    }
+
+    footer{margin-top:18px; text-align:center; color:var(--muted); font-size:13px}
+
+    .pulse{position:relative}
+    .pulse::after{content:""; position:absolute; inset: -6px; border-radius:12px; background:radial-gradient(circle at center, rgba(0,209,102,0.12), transparent 40%); opacity:0; transform:scale(.9); transition:opacity .25s ease, transform .25s ease}
+    .btn-primary:hover + .pulse::after, .btn-primary:focus + .pulse::after{opacity:1; transform:scale(1)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card" id="card">
+      <div class="left">
+        <div class="logo">GCash</div>
+        <div class="qr-wrap">
+          <div class="qr" id="qr">
+            <img id="qrImg" alt="GCash QR code" style="max-width:100%; height:100%; object-fit:cover" />
+          </div>
+          <div class="barcode">
+            <svg id="barcodeSvg"></svg>
+          </div>
+          <div style="display:flex; gap:8px;">
+            <button class="btn btn-ghost" id="downloadQR">Download QR</button>
+            <button class="btn btn-ghost" id="printCard">Print</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="info">
+          <div class="tag">Donate via GCash</div>
+          <div style="flex:1"></div>
+          <div class="tag">Safe & Secure</div>
+        </div>
+        <h1>Support me — every little help counts</h1>
+        <p class="lead">Scan the QR or copy the number below to send using GCash. Thank you for your support ❤️</p>
+
+        <div style="margin-top:18px">
+          <div class="number">0991 691 0850</div>
+          <div class="meta">Name: <strong>—</strong> &nbsp;•&nbsp; Purpose: Donations</div>
+
+          <div class="actions">
+            <button class="btn btn-primary" id="copyBtn">Copy number</button>
+            <button class="btn btn-ghost" id="openGcash">Open GCash (if installed)</button>
+            <div class="pulse"></div>
+          </div>
+
+          <div style="margin-top:18px">
+            <label style="display:block; color:var(--muted); font-size:13px; margin-bottom:6px">Custom message (optional)</label>
+            <input id="note" placeholder="eg. Donation — Thanks" style="width:100%; padding:10px; border-radius:10px; border:1px solid rgba(255,255,255,0.04); background:transparent; color:inherit" />
+          </div>
+
+          <div style="margin-top:14px; color:var(--muted); font-size:13px">Pro tips:
+            <ul style="margin:8px 0 0 18px">
+              <li>Use "Send Money" in GCash and paste the number or scan the QR.</li>
+              <li>Tap <strong>Open GCash</strong> to try launching the app on mobile.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="coins">
+        <div class="coin x1"></div>
+        <div class="coin x2"></div>
+        <div class="coin x3"></div>
+        <div class="coin x4"></div>
+      </div>
+    </div>
+
+    <footer>Made with ❤️ — Your GCash donation page</footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
+  <script>
+    (function(){
+      const gcashNumber = '09916910850';
+      const svg = document.getElementById('barcodeSvg');
+      try{
+        JsBarcode(svg, gcashNumber, {format: 'CODE128', displayValue: true, fontOptions:'bold', height:48, width:2, margin:6});
+      }catch(e){ console.warn('barcode failed', e) }
+
+      const qrImg = document.getElementById('qrImg');
+      const payload = encodeURIComponent('GCASH:' + gcashNumber + '\nMessage: Donate');
+      const qrUrl = `https://chart.googleapis.com/chart?cht=qr&chs=400x400&chl=${payload}&choe=UTF-8`;
+      qrImg.src = qrUrl;
+
+      document.getElementById('copyBtn').addEventListener('click', async function(){
+        try{
+          await navigator.clipboard.writeText(gcashNumber);
+          this.textContent = 'Copied!';
+          setTimeout(()=> this.textContent = 'Copy number', 1800);
+        }catch(e){
+          alert('Could not copy automatically. Please select and copy the number.');
+        }
+      });
+
+      document.getElementById('downloadQR').addEventListener('click', function(){
+        const a = document.createElement('a');
+        a.href = qrImg.src;
+        a.download = 'gcash-qr-09916910850.png';
+        document.body.appendChild(a); a.click(); a.remove();
+      });
+
+      document.getElementById('printCard').addEventListener('click', function(){
+        window.print();
+      });
+
+      document.getElementById('openGcash').addEventListener('click', function(){
+        const uri = `gcash://send?phone=${gcashNumber}`;
+        window.location.href = uri;
+      });
+    })();
+  </script>
+</body>
+</html>
