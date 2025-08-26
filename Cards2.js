@@ -21,7 +21,7 @@ const CARDS = [
   { title: "TLC", href: "http://161.49.17.2:6610/001/2/ch00000090990000001181/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://logo.iptveditor.com/tlc.png", desc: "Converge", badge: "LIVE" },
   { title: "Warner TV", href: "http://161.49.17.2:6610/001/2/ch00000090990000001096/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://i.imgur.com/vGEL2Ne.png", desc: "Converge", badge: "LIVE" },
   { title: "CNN International", href: "http://161.49.17.2:6610/001/2/ch00000090990000001073/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "http://115.146.176.131:80/images/2acf9495fde07739914e7a7bb3ffee94.png", desc: "Converge", badge: "LIVE" },
-  { title: "ABC Australia", href: "http://161.49.17.2:6610/001/2/ch00000090990000001111/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://i.imgur.com/kVVax44.png", desc: "Converge", badge: "LIVE" }
+  { title: "ABC Australia", href: "http://161.49.17.2:6610/001/2/ch00000090990000001111/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://i.imgur.com/kVVax44.png", desc: "Converge", badge: "LIVE" },
         { title: "Follow my Page", href: "go:FB", image: "https://media.giphy.com/headers/facebook/FuLFvah0klRm.gif", desc: "Follow my Page for Updates", badge: "Follow" },
         { title: "Donate with ❤️", href: "go:GC", image: "https://i.giphy.com/lnfPlSN43yzFDQCVry.webp", desc: "You Contribution Help me to Continue Building Iptv App", badge: "Donate" },
         { title: "EPG", href: "go:EPG", image: "https://res.cloudinary.com/dglljk9gs/image/upload/v1756176528/file_0000000095e861fa8e42c68a790bb0c3_jqgqjv.png", desc: "Electronic Program Guide", badge: "EPG" },
@@ -82,7 +82,7 @@ const CARDS = [
   { title: "Premiere Sports", href: "http://161.49.17.2:6610/001/2/ch00000090990000001135/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://upload.wikimedia.org/wikipedia/commons/c/cb/PremierSports-ph.png", desc: "Sports", badge: "LIVE" },
   { title: "Premier Sports 2", href: "http://161.49.17.2:6610/001/2/ch00000090990000001204/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://static.wikia.nocookie.net/logopedia/images/5/59/PremierSports2_logo.png/revision/latest/scale-to-width-down/250?cb=20220528091432", desc: "Sports", badge: "LIVE" },
   { title: "History", href: "http://161.49.17.2:6610/001/2/ch00000090990000001074/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://cantseeus.com/wp-content/uploads/2023/10/History_28201529.png", desc: "Documentary", badge: "LIVE" },
-  { title: "Discovery Asia", href: "http://161.49.17.2:6610/001/2/ch00000090990000001334/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Discovery-asia.png/220px-Discovery-asia.png", desc: "Documentary", badge: "LIVE" }
+  { title: "Discovery Asia", href: "http://161.49.17.2:6610/001/2/ch00000090990000001334/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Discovery-asia.png/220px-Discovery-asia.png", desc: "Documentary", badge: "LIVE" },
 ];
 
 
