@@ -89,63 +89,90 @@
 
 
     const grid = document.getElementById('grid');
+let perPage = 20; // number of cards per load
+let currentIndex = 0; // tracks how many cards shown
 
-    function render(list){
-      const frag = document.createDocumentFragment();
-      list.forEach(item => {
-        const a = document.createElement('a');
-        a.className = 'card';
-        a.href = item.href;
-        a.target = '_blank';
-        a.rel = 'noopener noreferrer';
-        a.setAttribute('aria-label', item.title);
+function renderChunk(list) {
+  const frag = document.createDocumentFragment();
+  const slice = list.slice(currentIndex, currentIndex + perPage);
+  
+  slice.forEach(item => {
+    const a = document.createElement('a');
+    a.className = 'card';
+    a.href = item.href;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.setAttribute('aria-label', item.title);
 
-        const media = document.createElement('div');
-        media.className = 'media';
+    const media = document.createElement('div');
+    media.className = 'media';
 
-        const img = document.createElement('img');
-        img.loading = 'lazy';
-        img.decoding = 'async';
-        img.alt = item.title || '';
-        img.src = item.image;
-        media.appendChild(img);
+    const img = document.createElement('img');
+    img.loading = 'lazy';
+    img.decoding = 'async';
+    img.alt = item.title || '';
+    img.src = item.image;
+    media.appendChild(img);
 
-        if(item.badge){
-          const b = document.createElement('span');
-          b.className = 'badge';
-          b.textContent = item.badge;
-          media.appendChild(b);
-        }
-
-        const meta = document.createElement('div');
-        meta.className = 'meta';
-
-        const h = document.createElement('p');
-        h.className = 'title';
-        h.textContent = item.title || '';
-
-        const d = document.createElement('p');
-        d.className = 'desc';
-        d.textContent = item.desc || '';
-
-        meta.appendChild(h); 
-        meta.appendChild(d);
-        a.appendChild(media); 
-        a.appendChild(meta);
-        frag.appendChild(a);
-      });
-
-      grid.innerHTML = '';
-      grid.appendChild(frag);
+    if(item.badge){
+      const b = document.createElement('span');
+      b.className = 'badge';
+      b.textContent = item.badge;
+      media.appendChild(b);
     }
 
-    render(CARDS);
+    const meta = document.createElement('div');
+    meta.className = 'meta';
 
-    const q = document.getElementById('q');
-    q.addEventListener('input', () => {
-      const term = q.value.trim().toLowerCase();
-      if(!term) return render(CARDS);
-      const filtered = CARDS.filter(c => (c.title+" "+(c.desc||'')).toLowerCase().includes(term));
-      render(filtered);
-    });
-  
+    const h = document.createElement('p');
+    h.className = 'title';
+    h.textContent = item.title || '';
+
+    const d = document.createElement('p');
+    d.className = 'desc';
+    d.textContent = item.desc || '';
+
+    meta.appendChild(h); 
+    meta.appendChild(d);
+    a.appendChild(media); 
+    a.appendChild(meta);
+    frag.appendChild(a);
+  });
+
+  grid.appendChild(frag);
+  currentIndex += perPage;
+}
+
+// Initial render
+renderChunk(CARDS);
+
+// Infinite scroll
+window.addEventListener('scroll', () => {
+  if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 200) {
+    if (currentIndex < CARDS.length) {
+      renderChunk(CARDS);
+    }
+  }
+});
+
+// Search still works
+const q = document.getElementById('q');
+q.addEventListener('input', () => {
+  const term = q.value.trim().toLowerCase();
+  grid.innerHTML = '';
+  currentIndex = 0;
+  const filtered = term 
+    ? CARDS.filter(c => (c.title+" "+(c.desc||'')).toLowerCase().includes(term)) 
+    : CARDS;
+  renderChunk(filtered);
+  // Replace infinite scroll with filtered list
+  window.onscroll = () => {
+    if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 200) {
+      if (currentIndex < filtered.length) {
+        renderChunk(filtered);
+      }
+    }
+  };
+});
+
+    
