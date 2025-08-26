@@ -3,7 +3,9 @@
         { title: "Follow my Page", href: "go:FB", image: "https://media.giphy.com/headers/facebook/FuLFvah0klRm.gif", desc: "Follow my Page for Updates", badge: "Follow" },
         { title: "Donate with ❤️", href: "go:GC", image: "https://i.giphy.com/lnfPlSN43yzFDQCVry.webp", desc: "You Contribution Help me to Continue Building Iptv App", badge: "Donate" },
         { title: "EPG", href: "go:EPG", image: "https://res.cloudinary.com/dglljk9gs/image/upload/v1756176528/file_0000000095e861fa8e42c68a790bb0c3_jqgqjv.png", desc: "Electronic Program Guide", badge: "EPG" },
-          { title: "Kapamilya Channel", href: "go:1", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJm6yEX2gKUoTEn-wvvXwWZaJ3Vp84BRaz3fKDLZbx6fEl98tBiS2TG7-i&s=10", desc: "ENTERTAINMENT", badge: "LIVE" },
+   { title: "UFC", href: "http://bluesky4all.redirectme.net:61881/play/nr4ab_pU4KgsHNgsvvVCFEFBuxYtvYsZYHhx3qHj0bKnbdSTCFpsniVSvzzjrUY-/ts", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTds6GsqzwvU3Zp_zcIcFSaiCgbK2FwYXocXQ&s", desc: "Sports", badge: "Request" },
+          
+        { title: "Kapamilya Channel", href: "go:1", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJm6yEX2gKUoTEn-wvvXwWZaJ3Vp84BRaz3fKDLZbx6fEl98tBiS2TG7-i&s=10", desc: "ENTERTAINMENT", badge: "LIVE" },
           { title: "Kapamilya Channel HD", href: "go:2", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
           { title: "PBO", href: "go:3", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Pinoy_Box_Office_logo.svg/1200px-Pinoy_Box_Office_logo.svg.png", desc: "MOVIES", badge: "LIVE" },
           { title: "DZMM", href: "go:4", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7ZCR-pftoE3lQmBNzKkikguk4TufeKkCWTH7zWW-L_X4EctA8Yiu_e84&s=10", desc: "NEWS", badge: "LIVE" },
