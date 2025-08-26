@@ -69,7 +69,7 @@
   { title: "Premier Sports 2", href: "http://161.49.17.2:6610/001/2/ch00000090990000001204/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://static.wikia.nocookie.net/logopedia/images/5/59/PremierSports2_logo.png/revision/latest/scale-to-width-down/250?cb=20220528091432", desc: "Sports", badge: "LIVE" },
   { title: "History", href: "http://161.49.17.2:6610/001/2/ch00000090990000001074/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://cantseeus.com/wp-content/uploads/2023/10/History_28201529.png", desc: "Documentary", badge: "LIVE" },
   { title: "Discovery Asia", href: "http://161.49.17.2:6610/001/2/ch00000090990000001334/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Discovery-asia.png/220px-Discovery-asia.png", desc: "Documentary", badge: "LIVE" }
-
+];
    [     
   { title: "Discovery Channel", href: "http://161.49.17.2:6610/001/2/ch00000090990000001194/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://cantseeus.com/wp-content/uploads/2023/10/discov.png", desc: "Converge", badge: "LIVE" },
   { title: "Asian Food Network", href: "http://161.49.17.2:6610/001/2/ch00000090990000001342/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://i.imgur.com/O5jBcL2.png", desc: "Converge", badge: "LIVE" },
