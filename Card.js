@@ -15,7 +15,8 @@
           { title: "BILYONARYO", href: "go:10", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFsxnroC1zV9BENujdiAbx-UkMpMvVIyy59c3qHzc-rAnwqX6CEsJh8eo&s=10", desc: "NEWS", badge: "LIVE" },
           { title: "TV5", href: "go:11", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-m2TPRW6arfXy_QzgKx8UkzTB_F68TQZds8OCqCEgALsFaj185QVmM5U&s=10", desc: "ENTERTAINMENT", badge: "LIVE" },
           { title: "A2Z", href: "go:12", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-8xdzLPA6Bic5-37pV-BONJGnHRFlvygAg9bG79EpBQfD-y6pqBaF5ygk&s=101101144828", desc: "ENTERTAINMENT", badge: "LIVE" },
- { title: "NET25", href: "go:13", image: "https://i.imgur.com/pPPubX5.png", desc: "NEWS", badge: "LIVE" },
+
+{ title: "NET25", href: "go:13", image: "https://i.imgur.com/pPPubX5.png", desc: "NEWS", badge: "LIVE" },
 { title: "IBC13", href: "go:14", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ7jxE4OCjXPY6FDckgGX3KtPQ34-1v5JT9BZswFw2x4V4aIcCJcy97UtO&s=10", desc: "NEWS", badge: "LIVE" },
 { title: "UNTV", href: "go:15", image: "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/UNTV-Logo-2016.svg/300px-UNTV-Logo-2016.svg.png", desc: "NEWS", badge: "LIVE" },
 { title: "PTV4", href: "go:16", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSeDDZtGQxsk5QNh2XvgtdR0rSIxgaCj__Yg&usqp=CAU", desc: "NEWS", badge: "LIVE" },
@@ -82,7 +83,31 @@
   { title: "Warner TV", href: "http://161.49.17.2:6610/001/2/ch00000090990000001096/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://i.imgur.com/vGEL2Ne.png", desc: "Converge", badge: "LIVE" },
   { title: "CNN International", href: "http://161.49.17.2:6610/001/2/ch00000090990000001073/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "http://115.146.176.131:80/images/2acf9495fde07739914e7a7bb3ffee94.png", desc: "Converge", badge: "LIVE" },
   { title: "ABC Australia", href: "http://161.49.17.2:6610/001/2/ch00000090990000001111/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://i.imgur.com/kVVax44.png", desc: "Converge", badge: "LIVE" },
+
         
+  { title: "CCTV4", href: "http://161.49.17.2:6610/001/2/ch00000090990000001223/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://i.imgur.com/HBisPOA.png", desc: "International", badge: "LIVE" },
+  { title: "Metro Channel", href: "http://161.49.17.2:6610/001/2/ch00000090990000001267/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://static.wikia.nocookie.net/russel/images/c/c4/Metro_Channel_White_Logo_2018.png/revision/latest?cb=20210301130321", desc: "Lifestyle", badge: "LIVE" },
+  { title: "USA Today", href: "http://161.49.17.2:6610/001/2/ch00000090990000001199/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://brandlogos.net/wp-content/uploads/2022/10/usa_today-logo_brandlogos.net_9jygb.png", desc: "News", badge: "LIVE" },
+  { title: "DW News", href: "http://161.49.17.2:6610/001/2/ch00000090990000001166/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://brandlogos.net/wp-content/uploads/2021/12/deutsche_welle-brandlogo.net_.png", desc: "News", badge: "LIVE" },
+  { title: "Fox News", href: "http://161.49.17.2:6610/001/2/ch00000090990000001105/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://upload.wikimedia.org/wikipedia/commons/6/67/Fox_News_Channel_logo.svg", desc: "News", badge: "LIVE" },
+  { title: "Euro News", href: "http://161.49.17.2:6610/001/2/ch00000090990000001336/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://upload.wikimedia.org/wikipedia/commons/3/39/Euronews._2016_alternative_logo.png", desc: "News", badge: "LIVE" },
+  { title: "TV5 Monde", href: "http://161.49.17.2:6610/001/2/ch00000090990000001156/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://klean.nl/wp-content/uploads/Logo_TV5_Monde_-_2021.svg_.png", desc: "International", badge: "LIVE" },
+  { title: "France24", href: "http://161.49.17.2:6610/001/2/ch00000090990000001157/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://i.imgur.com/61MSiq9.png", desc: "News", badge: "LIVE" },
+  { title: "Cartoonito", href: "http://161.49.17.2:6610/001/2/ch00000090990000001125/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://i.imgur.com/x1wehbs.png", desc: "Kids", badge: "LIVE" },
+  { title: "Living Asia Channel", href: "http://161.49.17.2:6610/001/2/ch00000090990000001154/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://i.imgur.com/Wsj7iPd.png", desc: "Travel", badge: "LIVE" },
+  { title: "Nick Jr", href: "http://161.49.17.2:6610/001/2/ch00000090990000001215/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/544627ef-b613-4f03-86c9-037e51bd8747/dg81i5p-9a91c59b-1204-45af-bd05-2b80e17ea4b2.png", desc: "Kids", badge: "LIVE" },
+  { title: "Cartoon Network", href: "http://161.49.17.2:6610/001/2/ch00000090990000001178/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://poster.starhubgo.com/Linear_channels2/316_1920x1080_HTV.png", desc: "Kids", badge: "LIVE" },
+  { title: "CGTN", href: "http://161.49.17.2:6610/001/2/ch00000090990000001146/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://upload.wikimedia.org/wikipedia/commons/8/81/CGTN.svg", desc: "News", badge: "LIVE" },
+  { title: "NHK World Japan", href: "http://161.49.17.2:6610/001/2/ch00000090990000001145/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://upload.wikimedia.org/wikipedia/commons/7/7b/NHK_World.svg", desc: "International", badge: "LIVE" },
+  { title: "Spotlight TV", href: "http://161.49.17.2:6610/001/2/ch00000090990000001134/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://static.wikia.nocookie.net/dreamlogos/images/3/32/Spotlight.png", desc: "Entertainment", badge: "LIVE" },
+  { title: "SMNI Channel", href: "http://161.49.17.2:6610/001/2/ch00000090990000001155/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://i.imgur.com/WL2ugeZ.png", desc: "Religious", badge: "LIVE" },
+  { title: "Global Trekker", href: "http://161.49.17.2:6610/001/2/ch00000090990000001203/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/482_144.png", desc: "Documentary", badge: "LIVE" },
+  { title: "Light TV", href: "http://161.49.17.2:6610/001/2/ch00000090990000001103/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPkvWEPQltk-Xq-ixCjPdOGxoqgIlMsc095A&s", desc: "Religious", badge: "LIVE" },
+  { title: "Oras Ng Himala", href: "http://161.49.17.2:6610/001/2/ch00000090990000001175/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://jioswm.org/assets/ministries/onh-730979c3f694e6ba49c8fc43562e04e72f002697bf08e5c8854f3b71aac56676.png", desc: "Religious", badge: "LIVE" },
+  { title: "INC TV", href: "http://161.49.17.2:6610/001/2/ch00000090990000001092/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://upload.wikimedia.org/wikipedia/commons/a/a9/INCTV_Logo_With_Shadow.webp", desc: "Religious", badge: "LIVE" },
+  { title: "3ABN", href: "http://161.49.17.2:6610/001/2/ch00000090990000001183/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://3abn.org/img/logos/3abn-logo-md.jpg", desc: "Religious", badge: "LIVE" },
+  { title: "EWTN", href: "http://161.49.17.2:6610/001/2/ch00000090990000001104/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq8NjV5sqkKOgSpV7-Nj5Dd0KHMVhrtW6ukg&s", desc: "Religious", badge: "LIVE" }
+
 ];
  
 
