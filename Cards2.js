@@ -86,9 +86,12 @@ const CARDS = [
 ];
 
 
+
+
 const grid = document.getElementById('grid');
-let perPage = 20; // number of cards per load
-let currentIndex = 0; // tracks how many cards shown
+const loader = document.getElementById('loader');
+let perPage = 20;
+let currentIndex = 0;
 
 function renderChunk(list) {
   const frag = document.createDocumentFragment();
@@ -144,33 +147,15 @@ function renderChunk(list) {
 // Initial render
 renderChunk(CARDS);
 
-// Infinite scroll
+// Infinite scroll with spinner
 window.addEventListener('scroll', () => {
   if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 200) {
     if (currentIndex < CARDS.length) {
-      renderChunk(CARDS);
+      loader.style.display = 'block';
+      setTimeout(() => {
+        renderChunk(CARDS);
+        loader.style.display = 'none';
+      }, 500);
     }
   }
 });
-
-// Search still works
-const q = document.getElementById('q');
-q.addEventListener('input', () => {
-  const term = q.value.trim().toLowerCase();
-  grid.innerHTML = '';
-  currentIndex = 0;
-  const filtered = term 
-    ? CARDS.filter(c => (c.title+" "+(c.desc||'')).toLowerCase().includes(term)) 
-    : CARDS;
-  renderChunk(filtered);
-  // Replace infinite scroll with filtered list
-  window.onscroll = () => {
-    if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 200) {
-      if (currentIndex < filtered.length) {
-        renderChunk(filtered);
-      }
-    }
-  };
-});
-
-    
