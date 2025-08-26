@@ -1,5 +1,7 @@
-
-    const CARDS =   [     
+<script>
+const CARDS = [ 
+  // your channel list here ...
+    
   { title: "Discovery Channel", href: "http://161.49.17.2:6610/001/2/ch00000090990000001194/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://cantseeus.com/wp-content/uploads/2023/10/discov.png", desc: "Converge", badge: "LIVE" },
   { title: "Asian Food Network", href: "http://161.49.17.2:6610/001/2/ch00000090990000001342/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://i.imgur.com/O5jBcL2.png", desc: "Converge", badge: "LIVE" },
   { title: "CGTN Documentary", href: "http://161.49.17.2:6610/001/2/ch00000090990000001110/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://upload.wikimedia.org/wikipedia/commons/d/d6/CGTN_Documentary_logo.png", desc: "Converge", badge: "LIVE" },
@@ -24,72 +26,91 @@
     ];
 
 
+const grid = document.getElementById('grid');
+let perPage = 20; // number of cards per load
+let currentIndex = 0; // tracks how many cards shown
 
+function renderChunk(list) {
+  const frag = document.createDocumentFragment();
+  const slice = list.slice(currentIndex, currentIndex + perPage);
+  
+  slice.forEach(item => {
+    const a = document.createElement('a');
+    a.className = 'card';
+    a.href = item.href;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.setAttribute('aria-label', item.title);
 
+    const media = document.createElement('div');
+    media.className = 'media';
 
+    const img = document.createElement('img');
+    img.loading = 'lazy';
+    img.decoding = 'async';
+    img.alt = item.title || '';
+    img.src = item.image;
+    media.appendChild(img);
 
-
-
-
-
-    const grid = document.getElementById('grid');
-
-    function render(list){
-      const frag = document.createDocumentFragment();
-      list.forEach(item => {
-        const a = document.createElement('a');
-        a.className = 'card';
-        a.href = item.href;
-        a.target = '_blank';
-        a.rel = 'noopener noreferrer';
-        a.setAttribute('aria-label', item.title);
-
-        const media = document.createElement('div');
-        media.className = 'media';
-
-        const img = document.createElement('img');
-        img.loading = 'lazy';
-        img.decoding = 'async';
-        img.alt = item.title || '';
-        img.src = item.image;
-        media.appendChild(img);
-
-        if(item.badge){
-          const b = document.createElement('span');
-          b.className = 'badge';
-          b.textContent = item.badge;
-          media.appendChild(b);
-        }
-
-        const meta = document.createElement('div');
-        meta.className = 'meta';
-
-        const h = document.createElement('p');
-        h.className = 'title';
-        h.textContent = item.title || '';
-
-        const d = document.createElement('p');
-        d.className = 'desc';
-        d.textContent = item.desc || '';
-
-        meta.appendChild(h); 
-        meta.appendChild(d);
-        a.appendChild(media); 
-        a.appendChild(meta);
-        frag.appendChild(a);
-      });
-
-      grid.innerHTML = '';
-      grid.appendChild(frag);
+    if(item.badge){
+      const b = document.createElement('span');
+      b.className = 'badge';
+      b.textContent = item.badge;
+      media.appendChild(b);
     }
 
-    render(CARDS);
+    const meta = document.createElement('div');
+    meta.className = 'meta';
 
-    const q = document.getElementById('q');
-    q.addEventListener('input', () => {
-      const term = q.value.trim().toLowerCase();
-      if(!term) return render(CARDS);
-      const filtered = CARDS.filter(c => (c.title+" "+(c.desc||'')).toLowerCase().includes(term));
-      render(filtered);
-    });
-  
+    const h = document.createElement('p');
+    h.className = 'title';
+    h.textContent = item.title || '';
+
+    const d = document.createElement('p');
+    d.className = 'desc';
+    d.textContent = item.desc || '';
+
+    meta.appendChild(h); 
+    meta.appendChild(d);
+    a.appendChild(media); 
+    a.appendChild(meta);
+    frag.appendChild(a);
+  });
+
+  grid.appendChild(frag);
+  currentIndex += perPage;
+}
+
+// Initial render
+renderChunk(CARDS);
+
+// Infinite scroll
+window.addEventListener('scroll', () => {
+  if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 200) {
+    if (currentIndex < CARDS.length) {
+      renderChunk(CARDS);
+    }
+  }
+});
+
+// Search still works
+const q = document.getElementById('q');
+q.addEventListener('input', () => {
+  const term = q.value.trim().toLowerCase();
+  grid.innerHTML = '';
+  currentIndex = 0;
+  const filtered = term 
+    ? CARDS.filter(c => (c.title+" "+(c.desc||'')).toLowerCase().includes(term)) 
+    : CARDS;
+  renderChunk(filtered);
+  // Replace infinite scroll with filtered list
+  window.onscroll = () => {
+    if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 200) {
+      if (currentIndex < filtered.length) {
+        renderChunk(filtered);
+      }
+    }
+  };
+});
+
+    
