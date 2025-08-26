@@ -34,6 +34,13 @@
 { title: "CINEMA ONE", href: "go:27", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7fdSeKh8dSXO5PaFQF8_-NuO9UNfTtShJ06Vf41AjsAJ092qTUyI1kaU&s=10", desc: "MOVIES", badge: "LIVE" },
 { title: "VIVA CINEMA", href: "go:28", image: "https://cms.cignal.tv/Upload/Thumbnails/Viva-Cinema-Sept-Vid-Thumbnail.jpg", desc: "MOVIES", badge: "LIVE" },
 
+        { title: "CINEMAWORLD", href: "go:29", image: "https://res.cloudinary.com/dglljk9gs/image/upload/v1756165714/value_x0dwen.png", desc: "MOVIES", badge: "LIVE" },
+
+        { title: "TAP MOVIES", href: "go:30", image: "https://res.cloudinary.com/dglljk9gs/image/upload/v1756165912/382-s_d4ttgo.webp", desc: "MOVIES", badge: "LIVE" },
+{ title: "TAP ACTION", href: "go:31", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-8xdzLPA6Bic5-37pV-BONJGnHRFlvygAg9bG79EpBQfD-y6pqBaF5ygk&s=101101144828", desc: "SPORTS", badge: "LIVE" },
+{ title: "TAP TV", href: "go:32", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzk4dN4f9D_DjEE_vkxXgfbdo9zbFkFyKNLg&usqp=CAU", desc: "ENTERTAINMENT", badge: "LIVE" },
+{ title: "TAP EDGE", href: "go:33", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEaK2VKf9RRzh4uobf5cBhQgBlQIckxrzjygso58s-HAcuZpHU4nFOtdk&s=10", desc: "ENTERTAINMENT", badge: "LIVE" },
+{ title: "TMC", href: "go:34", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2R6uJ3KMM1KLNXiaLMeSMOBDjLG-xZDTgZ-kwEXpWMxVqCjAuGL0EzaQ&s=10", desc: "MOVIES", badge: "LIVE" },
         
     ];
 
