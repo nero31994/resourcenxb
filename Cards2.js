@@ -83,7 +83,23 @@ const CARDS = [
   { title: "Universal Monsters", href: "https://jmp2.uk/plu-65a9b20f0c7ff50008d3a3b6.m3u8", image: "https://images.pluto.tv/channels/65a9b20f0c7ff50008d3a3b6/colorLogoPNG.png", desc: "Sci", badge: "LIVE" },
   { title: "Acapulco Shore", href: "https://jmp2.uk/plu-64dab1f835425100080e1e7b.m3u8", image: "https://images.pluto.tv/channels/64dab1f835425100080e1e7b/colorLogoPNG_1731838338924.png", desc: "Reality", badge: "LIVE" },
   { title: "All Reality by WE tv", href: "https://jmp2.uk/plu-5e82530945600e0007ca076c.m3u8", image: "https://images.pluto.tv/channels/5e82530945600e0007ca076c/colorLogoPNG.png", desc: "Reality", badge: "LIVE" },
-  { title: "Bad Girls Club", href: "https://jmp2.uk/plu-654932fa4d6d8f00084c4723.m3u8", image: "https://images.pluto.tv/channels/654932fa4d6d8f00084c4723/colorLogoPNG.png", desc: "Reality", badge: "LIVE" }
+  { title: "Bad Girls Club", href: "https://jmp2.uk/plu-654932fa4d6d8f00084c4723.m3u8", image: "https://images.pluto.tv/channels/654932fa4d6d8f00084c4723/colorLogoPNG.png", desc: "Reality", badge: "LIVE" },
+
+  
+  { title: "Bar Rescue", href: "https://jmp2.uk/plu-60a3d889a5b3690008dc7fe8.m3u8", image: "https://images.pluto.tv/channels/60a3d889a5b3690008dc7fe8/colorLogoPNG.png", desc: "Reality", badge: "LIVE" },
+  { title: "Black Ink Crew", href: "https://jmp2.uk/plu-5d51e2bceca5b4b2c0e06c50.m3u8", image: "https://images.pluto.tv/channels/5d51e2bceca5b4b2c0e06c50/colorLogoPNG_1731835399139.png", desc: "Reality", badge: "LIVE" },
+  { title: "Bravo Vault", href: "https://jmp2.uk/plu-6549310a53fc97000838fcc9.m3u8", image: "https://images.pluto.tv/channels/6549310a53fc97000838fcc9/colorLogoPNG.png", desc: "Reality", badge: "LIVE" },
+  { title: "Car Chase", href: "https://jmp2.uk/plu-65244c403fd33c0008ffff31.m3u8", image: "https://images.pluto.tv/channels/65244c403fd33c0008ffff31/colorLogoPNG.png", desc: "Reality", badge: "LIVE" },
+  { title: "Cheaters", href: "https://jmp2.uk/plu-627d355aa95efd00077afcc7.m3u8", image: "https://images.pluto.tv/channels/627d355aa95efd00077afcc7/colorLogoPNG.png", desc: "Reality", badge: "LIVE" },
+  { title: "COPS", href: "https://jmp2.uk/plu-5e1f7e089f23700009d66303.m3u8", image: "https://images.pluto.tv/channels/5e1f7e089f23700009d66303/colorLogoPNG.png", desc: "Reality", badge: "LIVE" },
+  { title: "Dating Disasters", href: "https://jmp2.uk/plu-651f239d9c7aeb0008286823.m3u8", image: "https://images.pluto.tv/channels/651f239d9c7aeb0008286823/colorLogoPNG.png", desc: "Reality", badge: "LIVE" },
+  { title: "Dog the Bounty Hunter", href: "https://jmp2.uk/plu-5bee1a7359ee03633e780238.m3u8", image: "https://images.pluto.tv/channels/5bee1a7359ee03633e780238/colorLogoPNG.png", desc: "Reality", badge: "LIVE" },
+  { title: "Ghost Hunters", href: "https://jmp2.uk/plu-64e561a4354251000823a0e0.m3u8", image: "https://images.pluto.tv/channels/64e561a4354251000823a0e0/colorLogoPNG.png", desc: "Reality", badge: "LIVE" },
+  { title: "Jersey Shore", href: "https://jmp2.uk/plu-609bfa51fbecc1000733152e.m3u8", image: "https://images.pluto.tv/channels/609bfa51fbecc1000733152e/colorLogoPNG.png", desc: "Reality", badge: "LIVE" },
+  { title: "Love & Hip Hop", href: "https://jmp2.uk/plu-5d51ddf0369acdb278dfb05e.m3u8", image: "https://images.pluto.tv/channels/5d51ddf0369acdb278dfb05e/colorLogoPNG.png", desc: "Reality", badge: "LIVE" },
+  { title: "Medical Incredible", href: "https://jmp2.uk/plu-6565436c9d5ac4000822f552.m3u8", image: "https://images.pluto.tv/channels/6565436c9d5ac4000822f552/colorLogoPNG.png", desc: "Reality", badge: "LIVE" },
+  { title: "Million Dollar Listing Vault", href: "https://jmp2.uk/plu-6549322e53fc97000838febc.m3u8", image: "https://images.pluto.tv/channels/6549322e53fc97000838febc/colorLogoPNG.png", desc: "Reality", badge: "LIVE" }
+
 
 ]
 
