@@ -29,7 +29,40 @@ const CARDS = [
   { title: "Bellator MMA", href: "https://jmp2.uk/plu-5ebc8688f3697d00072f7cf8.m3u8", image: "https://images.pluto.tv/channels/5ebc8688f3697d00072f7cf8/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
   { title: "CBS Sports HQ", href: "https://jmp2.uk/plu-5e9f2c05172a0f0007db4786.m3u8", image: "https://images.pluto.tv/channels/5e9f2c05172a0f0007db4786/colorLogoPNG_1731837352945.png", desc: "Sports", badge: "LIVE" },
   { title: "DAZN Ringside", href: "https://jmp2.uk/plu-649b6898f2ec0000081a9460.m3u8", image: "https://images.pluto.tv/channels/649b6898f2ec0000081a9460/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
-  { title: "FanDuel TV Extra", href: "https://jmp2.uk/plu-650b68bc2ce8e40008ac9c14.m3u8", image: "https://images.pluto.tv/channels/650b68bc2ce8e40008ac9c14/colorLogoPNG.png", desc: "Sports", badge: "LIVE" }
+  { title: "FanDuel TV Extra", href: "https://jmp2.uk/plu-650b68bc2ce8e40008ac9c14.m3u8", image: "https://images.pluto.tv/channels/650b68bc2ce8e40008ac9c14/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
+
+  
+  { title: "Formula 1 Channel", href: "https://jmp2.uk/plu-65c69ee3d77d450008c80438.m3u8", image: "https://images.pluto.tv/channels/65c69ee3d77d450008c80438/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
+  { title: "FOX Sports", href: "https://jmp2.uk/plu-5a74b8e1e22a61737979c6bf.m3u8", image: "https://images.pluto.tv/channels/5a74b8e1e22a61737979c6bf/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
+  { title: "GLORY Kickboxing", href: "https://jmp2.uk/plu-5417a212ff9fba68282fbf5e.m3u8", image: "https://images.pluto.tv/channels/5417a212ff9fba68282fbf5e/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
+  { title: "Golazo Network", href: "https://jmp2.uk/plu-63a0e33a45264d000850ed7e.m3u8", image: "https://images.pluto.tv/channels/63a0e33a45264d000850ed7e/colorLogoPNG_1731835813404.png", desc: "Sports", badge: "LIVE" },
+  { title: "GolfPass", href: "https://jmp2.uk/plu-65493029ab052400089e9d2f.m3u8", image: "https://images.pluto.tv/channels/65493029ab052400089e9d2f/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
+  { title: "MLB", href: "https://jmp2.uk/plu-5e66968a70f34c0007d050be.m3u8", image: "https://images.pluto.tv/channels/5e66968a70f34c0007d050be/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
+  { title: "Monster Jam", href: "https://jmp2.uk/plu-65c69b683ba51e00084534a3.m3u8", image: "https://images.pluto.tv/channels/65c69b683ba51e00084534a3/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
+  { title: "MotorTrend FAST TV", href: "https://jmp2.uk/plu-6400f731d200410008f9b339.m3u8", image: "https://images.pluto.tv/channels/6400f731d200410008f9b339/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
+  { title: "NBC Sports", href: "https://jmp2.uk/plu-6549306c83595c000815a696.m3u8", image: "https://images.pluto.tv/channels/6549306c83595c000815a696/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
+  { title: "NFL Channel", href: "https://jmp2.uk/plu-5ced7d5df64be98e07ed47b6.m3u8", image: "https://images.pluto.tv/channels/5ced7d5df64be98e07ed47b6/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
+  { title: "ONE Championship TV", href: "https://jmp2.uk/plu-668c5d3bfd9eb2000882bb50.m3u8", image: "https://images.pluto.tv/channels/668c5d3bfd9eb2000882bb50/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
+  { title: "PBR RidePass", href: "https://jmp2.uk/plu-60d39387706fe50007fda8e8.m3u8", image: "https://images.pluto.tv/channels/60d39387706fe50007fda8e8/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
+  { title: "PFL MMA", href: "https://jmp2.uk/plu-6334a574605f140007e233c4.m3u8", image: "https://images.pluto.tv/channels/6334a574605f140007e233c4/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
+  { title: "PGA TOUR", href: "https://jmp2.uk/plu-5de94dacb394a300099fa22a.m3u8", image: "https://images.pluto.tv/channels/5de94dacb394a300099fa22a/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
+  { title: "PokerGo", href: "https://jmp2.uk/plu-5fc54366b04b2300072e31af.m3u8", image: "https://images.pluto.tv/channels/5fc54366b04b2300072e31af/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
+  { title: "POWERNATION", href: "https://jmp2.uk/plu-63b48016d9dd51000828fa37.m3u8", image: "https://images.pluto.tv/channels/63b48016d9dd51000828fa37/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
+  { title: "Speed Sport 1", href: "https://jmp2.uk/plu-6675b8ccca74680008563c24.m3u8", image: "https://images.pluto.tv/channels/6675b8ccca74680008563c24/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
+  { title: "TNA Wrestling", href: "https://jmp2.uk/plu-59b722526996084038c01e1b.m3u8", image: "https://images.pluto.tv/channels/59b722526996084038c01e1b/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
+  { title: "Top Rank Classics", href: "https://jmp2.uk/plu-64d160f53c785e0008df525e.m3u8", image: "https://images.pluto.tv/channels/64d160f53c785e0008df525e/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
+  { title: "Triton Poker", href: "https://jmp2.uk/plu-661827ffe8fba800086b217d.m3u8", image: "https://images.pluto.tv/channels/661827ffe8fba800086b217d/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
+  { title: "UEFA Champions League", href: "https://jmp2.uk/plu-65ea8b928145cb0008509426.m3u8", image: "https://images.pluto.tv/channels/65ea8b928145cb0008509426/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
+  { title: "World Poker Tour", href: "https://jmp2.uk/plu-5616f9c0ada51f8004c4b091.m3u8", image: "https://images.pluto.tv/channels/5616f9c0ada51f8004c4b091/colorLogoPNG-1664295222280.png", desc: "Sports", badge: "LIVE" },
+  { title: "WOW 鈥� Women of Wrestling", href: "https://jmp2.uk/plu-66b66b9e14a2bb000872f606.m3u8", image: "https://images.pluto.tv/channels/66b66b9e14a2bb000872f606/colorLogoPNG.png", desc: "Sports", badge: "LIVE" },
+
+  { title: "Cine navideño", href: "https://jmp2.uk/plu-60fb3162df090700075da907.m3u8", image: "https://images.pluto.tv/channels/60fb3162df090700075da907/colorLogoPNG_1730488400806.png", desc: "Season", badge: "LIVE" },
+  { title: "Crackling Fireplace", href: "https://jmp2.uk/plu-5bf48085851dd5632e2f7b4d.m3u8", image: "https://images.pluto.tv/channels/5bf48085851dd5632e2f7b4d/colorLogoPNG_1730483404196.png", desc: "Season", badge: "LIVE" },
+  { title: "Festive Fireplace", href: "https://jmp2.uk/plu-614501c653ceee000772b0ca.m3u8", image: "https://images.pluto.tv/channels/614501c653ceee000772b0ca/colorLogoPNG.png", desc: "Season", badge: "LIVE" },
+  { title: "Hallmark en español", href: "https://jmp2.uk/plu-65453ee6056b97000880302a.m3u8", image: "https://images.pluto.tv/channels/65453ee6056b97000880302a/colorLogoPNG.png", desc: "Season", badge: "LIVE" },
+  { title: "Hallmark Movies & More Holiday Favorites", href: "https://jmp2.uk/plu-63335d36a1cd8c000765466c.m3u8", image: "https://images.pluto.tv/channels/63335d36a1cd8c000765466c/colorLogoPNG_1730489068460.png", desc: "Season", badge: "LIVE" },
+  { title: "Holiday Movie Favorites By Lifetime", href: "https://jmp2.uk/plu-63335c59e4d7eb000785e71a.m3u8", image: "https://images.pluto.tv/channels/63335c59e4d7eb000785e71a/colorLogoPNG_1730489218858.png", desc: "Season", badge: "LIVE" }
+
 ]
 
 
