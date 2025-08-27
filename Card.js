@@ -124,7 +124,9 @@
     const grid = document.getElementById('grid');
 let perPage = 20; // number of cards per load
 let currentIndex = 0; // tracks how many cards shown
+let activeList = CARDS; // ✅ the list currently being displayed (all or filtered)
 
+// Render cards in chunks
 function renderChunk(list) {
   const frag = document.createDocumentFragment();
   const slice = list.slice(currentIndex, currentIndex + perPage);
@@ -176,34 +178,43 @@ function renderChunk(list) {
   currentIndex += perPage;
 }
 
-// Initial render
-renderChunk(CARDS);
-
-// Infinite scroll
-window.addEventListener('scroll', () => {
+// ✅ Reusable loader
+function loadMore() {
   if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 200) {
-    if (currentIndex < CARDS.length) {
-      renderChunk(CARDS);
+    if (currentIndex < activeList.length) {
+      renderChunk(activeList);
     }
   }
-});
+}
 
-// Search still works
+// Initial render
+renderChunk(activeList);
+
+// Infinite scroll
+window.addEventListener('scroll', loadMore);
+
+// Search
 const q = document.getElementById('q');
 q.addEventListener('input', () => {
   const term = q.value.trim().toLowerCase();
   grid.innerHTML = '';
   currentIndex = 0;
-  const filtered = term 
+
+  // ✅ update active list
+  activeList = term 
     ? CARDS.filter(c => (c.title+" "+(c.desc||'')).toLowerCase().includes(term)) 
     : CARDS;
-  renderChunk(filtered);
-  // Replace infinite scroll with filtered list
-  window.onscroll = () => {
-    if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 200) {
-      if (currentIndex < filtered.length) {
-        renderChunk(filtered);
-      }
-    }
-  };
+
+  if (activeList.length === 0) {
+    // ✅ show "no results" message
+    const msg = document.createElement('p');
+    msg.textContent = "❌ No results found";
+    msg.style.textAlign = "center";
+    msg.style.padding = "20px";
+    msg.style.color = "#b0b6c2"; // muted gray
+    msg.style.fontSize = "16px";
+    grid.appendChild(msg);
+  } else {
+    renderChunk(activeList);
+  }
 });
