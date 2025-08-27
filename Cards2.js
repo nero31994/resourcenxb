@@ -1,13 +1,13 @@
 
 const CARDS = [ 
   // your channel list here ...
-   {
-  title: "Peacock TV",
-  href: "https://akam.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc106wh3yw)/master.mpd",
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Peacock_logo.svg/320px-Peacock_logo.svg.png",
-  desc: "Entertainment",
-  badge: "LIVE",
-  drm: "clearkey", licenseUrl: "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=00208c93f4358213b52220898b962385&key=8ae6063167228e350dd132d4a1573102"
+   
+  { 
+    title: "Peacock Live", 
+    href: "https://akam.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc106wh3yw)/master.mpd?drm=clearkey&kid=ACKMk/Q1ghO1IiCJi5Yjhg&key=iuYGMWcijiUN0TLSFxcxAg", 
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Peacock_logo.png", 
+    desc: "Entertainment", 
+    badge: "LIVE" 
   },
   { title: "Classic Movie Westerns", href: "https://jmp2.uk/plu-61f33318210549000806a530.m3u8", image: "https://images.pluto.tv/channels/61f33318210549000806a530/colorLogoPNG.png", desc: "Westerns", badge: "LIVE" },
   { title: "Gunsmoke", href: "https://jmp2.uk/plu-60f75771dfc72a00071fd0e0.m3u8", image: "https://images.pluto.tv/channels/60f75771dfc72a00071fd0e0/colorLogoPNG.png", desc: "Westerns", badge: "LIVE" },
