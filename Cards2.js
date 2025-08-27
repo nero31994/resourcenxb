@@ -83,7 +83,7 @@ const CARDS = [
   { title: "Universal Monsters", href: "https://jmp2.uk/plu-65a9b20f0c7ff50008d3a3b6.m3u8", image: "https://images.pluto.tv/channels/65a9b20f0c7ff50008d3a3b6/colorLogoPNG.png", desc: "Sci", badge: "LIVE" },
   { title: "Acapulco Shore", href: "https://jmp2.uk/plu-64dab1f835425100080e1e7b.m3u8", image: "https://images.pluto.tv/channels/64dab1f835425100080e1e7b/colorLogoPNG_1731838338924.png", desc: "Reality", badge: "LIVE" },
   { title: "All Reality by WE tv", href: "https://jmp2.uk/plu-5e82530945600e0007ca076c.m3u8", image: "https://images.pluto.tv/channels/5e82530945600e0007ca076c/colorLogoPNG.png", desc: "Reality", badge: "LIVE" },
-  { title: "Bad Girls Club", href: "https://jmp2.uk/plu-654932fa4d6d8f00084c4723.m3u8", image: "https://images.pluto.tv/channels/654932fa4d6d8f00084c4723/colorLogoPNG.png", desc: "Reality", badge: "LIVE" },
+  { title: "Bad Girls Club", href: "https://jmp2.uk/plu-654932fa4d6d8f00084c4723.m3u8", image: "https://images.pluto.tv/channels/654932fa4d6d8f00084c4723/colorLogoPNG.png", desc: "Reality", badge: "LIVE" }
 
 ]
 
