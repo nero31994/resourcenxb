@@ -61,7 +61,29 @@ const CARDS = [
   { title: "Festive Fireplace", href: "https://jmp2.uk/plu-614501c653ceee000772b0ca.m3u8", image: "https://images.pluto.tv/channels/614501c653ceee000772b0ca/colorLogoPNG.png", desc: "Season", badge: "LIVE" },
   { title: "Hallmark en español", href: "https://jmp2.uk/plu-65453ee6056b97000880302a.m3u8", image: "https://images.pluto.tv/channels/65453ee6056b97000880302a/colorLogoPNG.png", desc: "Season", badge: "LIVE" },
   { title: "Hallmark Movies & More Holiday Favorites", href: "https://jmp2.uk/plu-63335d36a1cd8c000765466c.m3u8", image: "https://images.pluto.tv/channels/63335d36a1cd8c000765466c/colorLogoPNG_1730489068460.png", desc: "Season", badge: "LIVE" },
-  { title: "Holiday Movie Favorites By Lifetime", href: "https://jmp2.uk/plu-63335c59e4d7eb000785e71a.m3u8", image: "https://images.pluto.tv/channels/63335c59e4d7eb000785e71a/colorLogoPNG_1730489218858.png", desc: "Season", badge: "LIVE" }
+  { title: "Holiday Movie Favorites By Lifetime", href: "https://jmp2.uk/plu-63335c59e4d7eb000785e71a.m3u8", image: "https://images.pluto.tv/channels/63335c59e4d7eb000785e71a/colorLogoPNG_1730489218858.png", desc: "Season", badge: "LIVE" },
+
+  
+  { title: "Home for the Holidays", href: "https://jmp2.uk/plu-5f7f8698ec435a000785810b.m3u8", image: "https://images.pluto.tv/channels/5f7f8698ec435a000785810b/colorLogoPNG_1730487700713.png", desc: "Season", badge: "LIVE" },
+  { title: "Places & Spaces", href: "https://jmp2.uk/plu-66e0b30415d2c60008e2b99e.m3u8", image: "https://images.pluto.tv/channels/66e0b30415d2c60008e2b99e/colorLogoPNG.png", desc: "Season", badge: "LIVE" },
+  { title: "Pluto TV Christmas", href: "https://jmp2.uk/plu-5bb1b9f0adfc955391f8b7a2.m3u8", image: "https://images.pluto.tv/channels/5bb1b9f0adfc955391f8b7a2/colorLogoPNG.png", desc: "Season", badge: "LIVE" },
+  { title: "Stingray Holidayscapes", href: "https://jmp2.uk/plu-66ff1d5a565d3a000892bdcd.m3u8", image: "https://images.pluto.tv/channels/66ff1d5a565d3a000892bdcd/colorLogoPNG_1730483238509.png", desc: "Season", badge: "LIVE" },
+  { title: "Vevo Holiday", href: "https://jmp2.uk/plu-5dcf059646c0cf000a293edd.m3u8", image: "https://images.pluto.tv/channels/5dcf059646c0cf000a293edd/colorLogoPNG.png", desc: "Season", badge: "LIVE" },
+  { title: "Pluto TV Sci-Fi", href: "https://jmp2.uk/plu-5b4fc274694c027be6ed3eea.m3u8", image: "https://images.pluto.tv/channels/5b4fc274694c027be6ed3eea/colorLogoPNG.png", desc: "Sci-Fi", badge: "LIVE" },
+  { title: "Alien Nation by DUST", href: "https://jmp2.uk/plu-66621ed08ea5560008fde7c9.m3u8", image: "https://images.pluto.tv/channels/66621ed08ea5560008fde7c9/colorLogoPNG.png", desc: "Sci", badge: "LIVE" },
+  { title: "Doctor Who Classic", href: "https://jmp2.uk/plu-5ce4475cd43850831ca91ce7.m3u8", image: "https://images.pluto.tv/channels/5ce4475cd43850831ca91ce7/colorLogoPNG.png", desc: "Sci", badge: "LIVE" },
+  { title: "Godzilla", href: "https://jmp2.uk/plu-6452c8cee1979c0008608e27.m3u8", image: "https://images.pluto.tv/channels/6452c8cee1979c0008608e27/colorLogoPNG.png", desc: "Sci", badge: "LIVE" },
+  { title: "OuterSphere", href: "https://jmp2.uk/plu-66c638726838ee00085ac20d.m3u8", image: "https://images.pluto.tv/channels/66c638726838ee00085ac20d/colorLogoPNG.png", desc: "Sci", badge: "LIVE" },
+  { title: "Star Trek", href: "https://jmp2.uk/plu-5efbd39f8c4ce900075d7698.m3u8", image: "https://images.pluto.tv/channels/5efbd39f8c4ce900075d7698/colorLogoPNG.png", desc: "Sci", badge: "LIVE" },
+  { title: "Star Trek Deep Space Nine", href: "https://jmp2.uk/plu-65c69bbfd77d450008c7ffee.m3u8", image: "https://images.pluto.tv/channels/65c69bbfd77d450008c7ffee/colorLogoPNG.png", desc: "Sci", badge: "LIVE" },
+  { title: "Star Trek Voyager", href: "https://jmp2.uk/plu-634dacf51d90320007fcd5fa.m3u8", image: "https://images.pluto.tv/channels/634dacf51d90320007fcd5fa/colorLogoPNG.png", desc: "Sci", badge: "LIVE" },
+  { title: "Stargate", href: "https://jmp2.uk/plu-620bfa7df72827000703ddb1.m3u8", image: "https://images.pluto.tv/channels/620bfa7df72827000703ddb1/colorLogoPNG.png", desc: "Sci", badge: "LIVE" },
+  { title: "The Twilight Zone", href: "https://jmp2.uk/plu-67352ed93a61d4000881f9fa.m3u8", image: "https://images.pluto.tv/channels/67352ed93a61d4000881f9fa/colorLogoPNG_1732662672508.png", desc: "Sci", badge: "LIVE" },
+  { title: "TokuSHOUTsu", href: "https://jmp2.uk/plu-5c3f8f12a93c2d61b9990a4e.m3u8", image: "https://images.pluto.tv/channels/5c3f8f12a93c2d61b9990a4e/colorLogoPNG.png", desc: "Sci", badge: "LIVE" },
+  { title: "Universal Monsters", href: "https://jmp2.uk/plu-65a9b20f0c7ff50008d3a3b6.m3u8", image: "https://images.pluto.tv/channels/65a9b20f0c7ff50008d3a3b6/colorLogoPNG.png", desc: "Sci", badge: "LIVE" },
+  { title: "Acapulco Shore", href: "https://jmp2.uk/plu-64dab1f835425100080e1e7b.m3u8", image: "https://images.pluto.tv/channels/64dab1f835425100080e1e7b/colorLogoPNG_1731838338924.png", desc: "Reality", badge: "LIVE" },
+  { title: "All Reality by WE tv", href: "https://jmp2.uk/plu-5e82530945600e0007ca076c.m3u8", image: "https://images.pluto.tv/channels/5e82530945600e0007ca076c/colorLogoPNG.png", desc: "Reality", badge: "LIVE" },
+  { title: "Bad Girls Club", href: "https://jmp2.uk/plu-654932fa4d6d8f00084c4723.m3u8", image: "https://images.pluto.tv/channels/654932fa4d6d8f00084c4723/colorLogoPNG.png", desc: "Reality", badge: "LIVE" }
 
 ]
 
