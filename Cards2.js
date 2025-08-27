@@ -90,15 +90,21 @@ const CARDS = [
 
 
 
+
+
 const grid = document.getElementById('grid');
 const loader = document.getElementById('loader');
+const topBtn = document.getElementById('topBtn');
+
 let perPage = 20;
 let currentIndex = 0;
+let filteredCards = CARDS.slice(); // copy of all cards
 
+// Render chunk with favorite toggle & badges
 function renderChunk(list) {
   const frag = document.createDocumentFragment();
   const slice = list.slice(currentIndex, currentIndex + perPage);
-  
+
   slice.forEach(item => {
     const a = document.createElement('a');
     a.className = 'card';
@@ -124,6 +130,16 @@ function renderChunk(list) {
       media.appendChild(b);
     }
 
+    // Favorite button
+    const fav = document.createElement('div');
+    fav.className = 'fav-btn';
+    fav.innerHTML = '★';
+    fav.addEventListener('click', e => {
+      e.preventDefault();
+      fav.classList.toggle('active');
+    });
+    media.appendChild(fav);
+
     const meta = document.createElement('div');
     meta.className = 'meta';
 
@@ -144,20 +160,46 @@ function renderChunk(list) {
 
   grid.appendChild(frag);
   currentIndex += perPage;
+
+  // Show top button if page is long
+  if(currentIndex > perPage) topBtn.style.display = 'block';
 }
 
 // Initial render
-renderChunk(CARDS);
+renderChunk(filteredCards);
 
-// Infinite scroll with spinner
+// Infinite scroll with debounce
+let isLoading = false;
 window.addEventListener('scroll', () => {
+  if (isLoading) return;
   if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 200) {
-    if (currentIndex < CARDS.length) {
+    if (currentIndex < filteredCards.length) {
+      isLoading = true;
       loader.style.display = 'block';
       setTimeout(() => {
-        renderChunk(CARDS);
+        renderChunk(filteredCards);
         loader.style.display = 'none';
-      }, 500);
+        isLoading = false;
+      }, 400);
     }
   }
+});
+
+// Search filter
+const searchInput = document.getElementById('q');
+searchInput.addEventListener('input', () => {
+  const query = searchInput.value.toLowerCase();
+  filteredCards = CARDS.filter(card =>
+    (card.title && card.title.toLowerCase().includes(query)) ||
+    (card.desc && card.desc.toLowerCase().includes(query))
+  );
+
+  grid.innerHTML = ''; // clear grid
+  currentIndex = 0;
+  renderChunk(filteredCards);
+});
+
+// Jump-to-top
+topBtn.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 });
