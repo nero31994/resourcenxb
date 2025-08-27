@@ -7,11 +7,7 @@ const CARDS = [
   image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Peacock_logo.svg/320px-Peacock_logo.svg.png",
   desc: "Entertainment",
   badge: "LIVE",
-  drm: {
-    type: "clearkey",
-    licenseUrl: "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=00208c93f4358213b52220898b962385&key=8ae6063167228e350dd132d4a1573102",
-    keyId: "00208c93f4358213b52220898b962385",
-    key: "8ae6063167228e350dd132d4a1573102"
+  drm: "clearkey", licenseUrl: "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=00208c93f4358213b52220898b962385&key=8ae6063167228e350dd132d4a1573102"
   },
   { title: "Classic Movie Westerns", href: "https://jmp2.uk/plu-61f33318210549000806a530.m3u8", image: "https://images.pluto.tv/channels/61f33318210549000806a530/colorLogoPNG.png", desc: "Westerns", badge: "LIVE" },
   { title: "Gunsmoke", href: "https://jmp2.uk/plu-60f75771dfc72a00071fd0e0.m3u8", image: "https://images.pluto.tv/channels/60f75771dfc72a00071fd0e0/colorLogoPNG.png", desc: "Westerns", badge: "LIVE" },
