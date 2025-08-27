@@ -5,11 +5,12 @@
         { title: "EPG", href: "go:EPG", image: "https://res.cloudinary.com/dglljk9gs/image/upload/v1756176528/file_0000000095e861fa8e42c68a790bb0c3_jqgqjv.png", desc: "Electronic Program Guide", badge: "EPG" },
         { title: "PLUTO TV", href: "go:pluto", image: "https://i.giphy.com/T4uWkBi5pq4IYAAywy.webp", desc: "PLUTO TV", badge: "Featured" },
        { title: "WWE", href: "go:WWE", image: "https://images.squarespace-cdn.com/content/v1/5c64d1e665019f537572d4cf/1657600432462-B9FMM74AAHPX9BEKBKBK/WWE_WrestleMania_Banner.gif?format=2500w", desc: "Sports", badge: "Request" },
-      { title: "NBA CANADA", href: "go:NBA", image: "https://i.pinimg.com/originals/5c/9b/3a/5c9b3a6a7146356a08aa2715b603588b.gifer.gif?format=2500w", desc: "Sports", badge: "Request" },
+      { title: "NBA CANADA", href: "go:NBA", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVDXK3g0Lm_5T-ynBFKCMSmgvCyPk4QWTstpRWYyYFzIYWFbkl-UvOk90&s=10", desc: "Sports", badge: "Request" },
        { title: "UFC", href: "go:Ufc", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTds6GsqzwvU3Zp_zcIcFSaiCgbK2FwYXocXQ&s", desc: "Sports", badge: "Request" },
        { title: "BOXING TV", href: "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/boxing-tv/8d205a30-d00f-457d-978b-265b290eb7e0/0.m3u8", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHItDqM7FpT734IALnidYjSlviJv4lBht72n0R8ek4Ws2Sm1FAcCjlFtM&s=10", desc: "Sports", badge: "Request" },
        { title: "SINEMANILA", href: "https://live20.bozztv.com/giatv/giatv-sinemanila/sinemanila/playlist.m3u8u8", image: "https://i.ibb.co/6c69TjN1/Photoroom-20250223-170939.png", desc: "Movie", badge: "Request" },
-
+  { title: "FORENSIC FILES", href: "https://media.tenor.com/VBH2IOL-Rt0AAAAM/forensic-files.gif", image: "https://i.ibb.co/6c69TjN1/Photoroom-20250223-170939.png", desc: "Crime", badge: "Request" },
+        
         
         
         { title: "Kapamilya Channel", href: "go:1", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJm6yEX2gKUoTEn-wvvXwWZaJ3Vp84BRaz3fKDLZbx6fEl98tBiS2TG7-i&s=10", desc: "ENTERTAINMENT", badge: "LIVE" },
