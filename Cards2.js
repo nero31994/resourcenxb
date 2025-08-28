@@ -10,6 +10,7 @@ const CARDS = [
   drm: {
     license_type: "clearkey",
     license_key: "{\"keys\":[{\"kty\":\"oct\",\"k\":\"iuYGMWcijiUN0TLSFxcxAg\",\"kid\":\"ACKMk/Q1ghO1IiCJi5Yjhg\"}]}"
+  }
   },
   { title: "Classic Movie Westerns", href: "https://jmp2.uk/plu-61f33318210549000806a530.m3u8", image: "https://images.pluto.tv/channels/61f33318210549000806a530/colorLogoPNG.png", desc: "Westerns", badge: "LIVE" },
   { title: "Gunsmoke", href: "https://jmp2.uk/plu-60f75771dfc72a00071fd0e0.m3u8", image: "https://images.pluto.tv/channels/60f75771dfc72a00071fd0e0/colorLogoPNG.png", desc: "Westerns", badge: "LIVE" },
