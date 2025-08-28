@@ -2,14 +2,14 @@
 const CARDS = [ 
   // your channel list here ...
   {
-  title: "Peacock Live",
-  href: "https://peacocktv-ono.amagi.tv/.../manifest.mpd",
-  image: "https://upload.wikimedia.org/wikipedia/commons/f/f6/NBCUniversal_Peacock_Logo.png",
-  desc: "Watch Peacock TV live streaming.",
+  title: "Peacock Channel",
+  href: "https://akam.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc106wh3yw)/master.mpd",
+  image: "https://upload.wikimedia.org/wikipedia/commons/8/8c/Peacock_logo_2020.svg",
+  desc: "Live Channel",
   badge: "LIVE",
   drm: {
-    license_type: "clearkey",
-    license_key: "{\"keys\":[{\"kty\":\"oct\",\"k\":\"iuYGMWcijiUN0TLSFxcxAg\",\"kid\":\"ACKMk/Q1ghO1IiCJi5Yjhg\"}]}"
+    type: "clearkey",
+    licenseServer: "https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=00208c93f4358213b52220898b962385&key=8ae6063167228e350dd132d4a1573102"
   }
   },
   { title: "Classic Movie Westerns", href: "https://jmp2.uk/plu-61f33318210549000806a530.m3u8", image: "https://images.pluto.tv/channels/61f33318210549000806a530/colorLogoPNG.png", desc: "Westerns", badge: "LIVE" },
