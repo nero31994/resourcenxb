@@ -117,7 +117,37 @@
   { title: "Oras Ng Himala", href: "http://161.49.17.2:6610/001/2/ch00000090990000001175/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://jioswm.org/assets/ministries/onh-730979c3f694e6ba49c8fc43562e04e72f002697bf08e5c8854f3b71aac56676.png", desc: "Religious", badge: "LIVE" },
   { title: "INC TV", href: "http://161.49.17.2:6610/001/2/ch00000090990000001092/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://upload.wikimedia.org/wikipedia/commons/a/a9/INCTV_Logo_With_Shadow.webp", desc: "Religious", badge: "LIVE" },
   { title: "3ABN", href: "http://161.49.17.2:6610/001/2/ch00000090990000001183/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://3abn.org/img/logos/3abn-logo-md.jpg", desc: "Religious", badge: "LIVE" },
-  { title: "EWTN", href: "http://161.49.17.2:6610/001/2/ch00000090990000001104/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq8NjV5sqkKOgSpV7-Nj5Dd0KHMVhrtW6ukg&s", desc: "Religious", badge: "LIVE" }
+  { title: "EWTN", href: "http://161.49.17.2:6610/001/2/ch00000090990000001104/manifest.mpd?JITPDRMType=Widevine&virtualDomain=001.live_hls.zte.com", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq8NjV5sqkKOgSpV7-Nj5Dd0KHMVhrtW6ukg&s", desc: "Religious", badge: "LIVE" },
+
+        
+  { title: "TV5 HD", href: "go:C1", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "RPTV", href: "go:C2", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "TRUE FM", href: "go:C3", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "A2Z", href: "go:C4", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "PTV4", href: "go:C5", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "IBC13", href: "go:C6", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "BUKO", href: "go:C7", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "SARI SARI", href: "go:C8", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "TVN PINOY", href: "go:C9", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "NBA TV PH", href: "go:C10", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+
+  { title: "PREMIER SPORTS", href: "go:C11", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "ONE SPORTS", href: "go:C12", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "PBA RUSH", href: "go:C13", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "UAAP VARSITY", href: "go:C14", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "ONE SPORTS+", href: "go:C15", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "TAP SPORTS", href: "go:C16", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "MPTV", href: "go:C17", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "ROCK ENTERTAINMENT", href: "go:C18", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "HITS NOW", href: "go:C19", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "TAP TV", href: "go:C20", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+
+  { title: "GLOBAL TREKKER", href: "go:C21", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "WARNER TV", href: "go:C22", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "HGTV", href: "go:C23", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "FOOD NETWORK", href: "go:C24", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "FASHION TV", href: "go:C25", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" },
+  { title: "AXN", href: "go:C26", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFbFbOhLNpCNEkO02nb2f5zzwFveMuxhVVIbjWEoVdIWayrYk8ShRWsGB&s=10", desc: "ENTERTAINMENT", badge: "HD" }
 
 ];
  
