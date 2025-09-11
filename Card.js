@@ -128,7 +128,7 @@
   { title: "IBC13", href: "go:C6", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSbBUNeIgLtz9sUmWHB-9_aMNgN44kf3MD6A&s", desc: "GENERAL ENTERTAINMENT", badge: "HD" },
   { title: "BUKO", href: "go:C7", image: "https://cms.cignal.tv/Upload/Images/BuKo-Channel.jpg", desc: "COMEDY & VARIETY", badge: "HD" },
   { title: "SARI SARI", href: "go:C8", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzVn9432V_QmH68q8KCXYC0l-adFPvmW2MYKVG0bHZDbJcHQdnjIQmKik&s=10", desc: "FILIPINO ENTERTAINMENT", badge: "HD" },
-  { title: "TVN PINOY", href: "go:C9", image: "https://cms.cignal.tv/Upload/Images/2_tvNMovies_Pinoy_logo_color_Vertical.png", desc: "FILIPINO MOVIES & SHOWS", badge: "HD" },
+  { title: "TVN PINOY", href: "go:C9", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB4lOwohvhGLEpV-FcOQH1VUDx34AcxF48wuaRa0bBvlkCMvdy0MmWO9o&s=10", desc: "FILIPINO MOVIES & SHOWS", badge: "HD" },
   { title: "NBA TV PH", href: "go:C10", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-dEDe6zxDuRTP0ChAg4i9mCP7SLJ7-oxios44mFloJiTHdojIyIkDmWPM&s=10", desc: "SPORTS - BASKETBALL", badge: "HD" },
 
   { title: "PREMIER SPORTS", href: "go:C11", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsZVMedu7og3A8sfpujlPoWF5L5tzXywHnvwDjH1iqUSv-aBxFOCYBoz3J&s=10", desc: "SPORTS", badge: "HD" },
