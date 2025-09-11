@@ -147,7 +147,36 @@
   { title: "HGTV", href: "go:C23", image: "https://cms.cignal.tv/Upload/Images/HGTV%20Feb%202022%20Highlight%20Banner.png", desc: "HOME & LIVING", badge: "HD" },
   { title: "FOOD NETWORK", href: "go:C24", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDsN6ibDz_juZOD0ymBlhkspbx-Tdy48tYKw&s", desc: "FOOD & COOKING", badge: "HD" },
   { title: "FASHION TV", href: "go:C25", image: "https://cms.cignal.tv/Upload/Thumbnails/Fashion-TV.jpg", desc: "FASHION & LIFESTYLE", badge: "HD" },
-  { title: "AXN", href: "go:C26", image: "https://cms.cignal.tv/Upload/Images/AXN-New-Logo-(Black).jpg", desc: "ACTION & ENTERTAINMENT", badge: "HD" }
+  { title: "AXN", href: "go:C26", image: "https://cms.cignal.tv/Upload/Images/AXN-New-Logo-(Black).jpg", desc: "ACTION & ENTERTAINMENT", badge: "HD" },
+
+ 
+  { title: "LIFETIME", href: "go:C27", image: "", desc: "Entertainment channel featuring drama series, reality shows, and movies for women.", badge: "LIVE" },
+  { title: "HITS", href: "go:C28", image: "", desc: "Classic TV series and shows from the 80s, 90s, and 2000s.", badge: "LIVE" },
+  { title: "HBO", href: "go:C29", image: "", desc: "Premium channel for blockbuster movies, original series, and specials.", badge: "LIVE" },
+  { title: "HITS MOVIES", href: "go:C30", image: "", desc: "Movies channel showing Hollywood classics and popular titles.", badge: "LIVE" },
+  { title: "TAP MOVIES", href: "go:C31", image: "", desc: "Hollywood movies and box-office hits all day.", badge: "LIVE" },
+  { title: "ROCK ACTION", href: "go:C32", image: "", desc: "Action-packed movies and adrenaline-pumping films.", badge: "LIVE" },
+  { title: "TAP ACTION FLIX", href: "go:C33", image: "", desc: "24/7 action movies with martial arts, adventure, and thrillers.", badge: "LIVE" },
+  { title: "HBO FAMILY", href: "go:C34", image: "", desc: "Family-friendly movies, kids programming, and animation.", badge: "LIVE" },
+  { title: "CINEMAX", href: "go:C35", image: "", desc: "Hollywood blockbusters and exclusive movie premieres.", badge: "LIVE" },
+  { title: "HBO SIGNATURE", href: "go:C36", image: "", desc: "Award-winning dramas and HBO original series.", badge: "LIVE" },
+  { title: "HBO HITS", href: "go:C37", image: "", desc: "The latest box office hits and fan-favorite movies.", badge: "LIVE" },
+  { title: "CNN", href: "go:C38", image: "", desc: "Global news channel covering breaking news and world events.", badge: "LIVE" },
+  { title: "ONE PH", href: "go:C39", image: "", desc: "Philippine news, current affairs, and talk shows.", badge: "LIVE" },
+  { title: "ONE NEWS", href: "go:C40", image: "", desc: "Comprehensive coverage of local and international news.", badge: "LIVE" },
+  { title: "BILYONARYO", href: "go:C41", image: "", desc: "Business news, finance insights, and economic updates.", badge: "LIVE" },
+  { title: "BLOOMBERG", href: "go:C42", image: "", desc: "Global finance, markets, and economic trends.", badge: "LIVE" },
+  { title: "CNA", href: "go:C43", image: "", desc: "Asian news channel with deep analysis and documentaries.", badge: "LIVE" },
+  { title: "AL JAZEERA", href: "go:C44", image: "", desc: "International news and current affairs from around the globe.", badge: "LIVE" },
+  { title: "MOONBUG KIDS", href: "go:C45", image: "", desc: "Safe and fun educational shows for young kids.", badge: "LIVE" },
+  { title: "DREAMWORKS TAG", href: "go:C46", image: "", desc: "Animated series and movies from DreamWorks studios.", badge: "LIVE" },
+  { title: "ANIMAX", href: "go:C47", image: "", desc: "Popular anime series and Japanese animation.", badge: "LIVE" },
+  { title: "DREAMWORKS", href: "go:C48", image: "", desc: "Family-friendly animations and kids' adventure series.", badge: "LIVE" },
+  { title: "NICKELODEON", href: "go:C49", image: "", desc: "Cartoons, kids shows, and family-friendly fun.", badge: "LIVE" },
+  { title: "HISTORY", href: "go:C50", image: "", desc: "Documentaries and historical series exploring past events.", badge: "LIVE" },
+  { title: "KNOWLEDGE CHANNEL", href: "go:C51", image: "", desc: "Educational shows and learning resources for students.", badge: "LIVE" },
+  { title: "DEPED TV", href: "go:C52", image: "", desc: "Official educational channel from the Philippine Department of Education.", badge: "LIVE" }
+       
 ];
  
 
