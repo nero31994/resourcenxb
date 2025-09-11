@@ -183,7 +183,7 @@
 
 
     const grid = document.getElementById('grid');
-let perPage = 20; // number of cards per load
+let perPage = 50; // number of cards per load
 let currentIndex = 0; // tracks how many cards shown
 let activeList = CARDS; // ✅ the list currently being displayed (all or filtered)
 
