@@ -4,9 +4,9 @@
         { title: "EPG", href: "go:EPG", image: "https://res.cloudinary.com/dglljk9gs/image/upload/v1756176528/file_0000000095e861fa8e42c68a790bb0c3_jqgqjv.png", desc: "Electronic Program Guide", badge: "EPG" },
         { title: "MOVIES", href: "go:N", image: "https://variety.com/wp-content/uploads/2019/02/netflix_newlogoanimation.gif", desc: "WATCH MOVIES ON THE GO!", badge: "⭐Featured" },
         { title: "PLUTO TV", href: "go:pluto", image: "https://i.giphy.com/T4uWkBi5pq4IYAAywy.webp", desc: "PLUTO TV", badge: "Featured" },
-       { title: "WWE", href: "go:WWE", image: "https://images.squarespace-cdn.com/content/v1/5c64d1e665019f537572d4cf/1657600432462-B9FMM74AAHPX9BEKBKBK/WWE_WrestleMania_Banner.gif?format=2500w", desc: "Sports", badge: "Request" },
+       { title: "WWE", href: "go:WWE", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkblpVWpsze998MySnArHfPtF3mIFP8KlrFQb4AToZL_b3JZWDbIVjvmby&s=10", desc: "Sports", badge: "Request" },
          { title: "NBA CANADA", href: "go:NBA", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVDXK3g0Lm_5T-ynBFKCMSmgvCyPk4QWTstpRWYyYFzIYWFbkl-UvOk90&s=10", desc: "Sports", badge: "Request" },
-       { title: "UFC", href: "go:Ufc", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTds6GsqzwvU3Zp_zcIcFSaiCgbK2FwYXocXQ&s", desc: "Sports", badge: "Request" },
+       { title: "UFC", href: "go:Ufc", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmSt2Eu4zAEF8_bVvWJS_vAkWFHidMo6g0sPrJ04M9TUdZDObIa7KjG8sY&s=10", desc: "Sports", badge: "Request" },
        { title: "BOXING TV", href: "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/boxing-tv/8d205a30-d00f-457d-978b-265b290eb7e0/0.m3u8", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHItDqM7FpT734IALnidYjSlviJv4lBht72n0R8ek4Ws2Sm1FAcCjlFtM&s=10", desc: "Sports", badge: "Request" },
        { title: "CCTN47", href: "go:Cctn", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyzO-ZEyvzwrYl9snjS5XzkcC_sCYmU-A1znAuM5eS5Jx1qwU9i-pvowo&s=10", desc: "Religion", badge: "Request" },
         
@@ -107,7 +107,7 @@
   { title: "Cartoonito", href: "go:87", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt3zosm05NzLtSt_HutnQVcXIDO2ujOvpqpF6TvnAWYYN6wKgMAgjTvaJd&s=10", desc: "Kids", badge: "LIVE" },
   { title: "Living Asia Channel", href: "go:88", image: "https://i.imgur.com/Wsj7iPd.png", desc: "Travel", badge: "LIVE" },
   { title: "Nick Jr", href: "go:89", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNTYRq8jQ_FC8z9mAOHoj29BA3RrVnIpHoIuyybG05xL6uHCs10HstkHmY&s=10.png", desc: "Kids", badge: "LIVE" },
-  { title: "Cartoon Network", href: "go:90", image: "https://poster.starhubgo.com/Linear_channels2/316_1920x1080_HTV.png", desc: "Kids", badge: "LIVE" },
+  { title: "Cartoon Network", href: "go:90", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwyR3aQpZI1vXrL8a-RpyLstqGCi_HM9PuwJqSV4RJ8xgmQy82gC1QZP2G&s=10", desc: "Kids", badge: "LIVE" },
   { title: "CGTN", href: "go:91", image: "https://upload.wikimedia.org/wikipedia/commons/2/25/CGTN.png", desc: "News", badge: "LIVE" },
   { title: "NHK World Japan", href: "go:92", image: "https://upload.wikimedia.org/wikipedia/commons/7/7b/NHK_World.svg", desc: "International", badge: "LIVE" },
   { title: "Spotlight TV", href: "go:93", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp5cusz_Q--HWEY0r4py4Fcx2QIvM83eHu45xHOqOIUmgifz08EkgThsRc&s=10", desc: "Entertainment", badge: "LIVE" },
@@ -183,7 +183,7 @@
 
 
     const grid = document.getElementById('grid');
-let perPage = 50; // number of cards per load
+let perPage = 10; // number of cards per load
 let currentIndex = 0; // tracks how many cards shown
 let activeList = CARDS; // ✅ the list currently being displayed (all or filtered)
 
