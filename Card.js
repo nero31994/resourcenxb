@@ -182,16 +182,18 @@
 
 
 
-    const grid = document.getElementById('grid');
-let perPage = 70; // number of cards per load
-let currentIndex = 0; // tracks how many cards shown
-let activeList = CARDS; // ✅ the list currently being displayed (all or filtered)
+
+
+const grid = document.getElementById('grid');  
+let perPage = 70;
+let currentIndex = 0;
+let activeList = CARDS;
 
 // Render cards in chunks
-function renderChunk(list) {
+function renderChunk(list, save = true) {
   const frag = document.createDocumentFragment();
   const slice = list.slice(currentIndex, currentIndex + perPage);
-  
+
   slice.forEach(item => {
     const a = document.createElement('a');
     a.className = 'card';
@@ -210,7 +212,7 @@ function renderChunk(list) {
     img.src = item.image;
     media.appendChild(img);
 
-    if(item.badge){
+    if (item.badge) {
       const b = document.createElement('span');
       b.className = 'badge';
       b.textContent = item.badge;
@@ -228,18 +230,23 @@ function renderChunk(list) {
     d.className = 'desc';
     d.textContent = item.desc || '';
 
-    meta.appendChild(h); 
+    meta.appendChild(h);
     meta.appendChild(d);
-    a.appendChild(media); 
+    a.appendChild(media);
     a.appendChild(meta);
     frag.appendChild(a);
   });
 
   grid.appendChild(frag);
   currentIndex += perPage;
+
+  // ✅ Save to localStorage after rendering
+  if (save) {
+    localStorage.setItem('cachedGrid', grid.innerHTML);
+  }
 }
 
-// ✅ Reusable loader
+// Loader for infinite scroll
 function loadMore() {
   if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 200) {
     if (currentIndex < activeList.length) {
@@ -248,34 +255,38 @@ function loadMore() {
   }
 }
 
-// Initial render
-renderChunk(activeList);
+// ✅ Load from cache first (if exists)
+const cachedGrid = localStorage.getItem('cachedGrid');
+if (cachedGrid) {
+  grid.innerHTML = cachedGrid;
+  currentIndex = perPage; // assume first chunk already loaded
+} else {
+  renderChunk(activeList);
+}
 
 // Infinite scroll
 window.addEventListener('scroll', loadMore);
 
-// Search
+// Search (does not save results in cache)
 const q = document.getElementById('q');
 q.addEventListener('input', () => {
   const term = q.value.trim().toLowerCase();
   grid.innerHTML = '';
   currentIndex = 0;
 
-  // ✅ update active list
-  activeList = term 
-    ? CARDS.filter(c => (c.title+" "+(c.desc||'')).toLowerCase().includes(term)) 
+  activeList = term
+    ? CARDS.filter(c => (c.title + " " + (c.desc || '')).toLowerCase().includes(term))
     : CARDS;
 
   if (activeList.length === 0) {
-    // ✅ show "no results" message
     const msg = document.createElement('p');
     msg.textContent = "❌ No results found";
     msg.style.textAlign = "center";
     msg.style.padding = "20px";
-    msg.style.color = "#b0b6c2"; // muted gray
+    msg.style.color = "#b0b6c2";
     msg.style.fontSize = "16px";
     grid.appendChild(msg);
   } else {
-    renderChunk(activeList);
+    renderChunk(activeList, false); // don't overwrite cachedGrid during search
   }
 });
