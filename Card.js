@@ -185,7 +185,7 @@
 
 
 const grid = document.getElementById('grid');  
-let perPage = 15;
+let perPage = 8;
 let currentIndex = 0;
 let activeList = CARDS;
 
