@@ -2,16 +2,14 @@
     const CARDS = [
        { title: "Donate with ❤️", href: "go:GC", image: "https://i.giphy.com/lnfPlSN43yzFDQCVry.webp", desc: "buy me coffee ☕", badge: "Donate" },
         { title: "EPG", href: "go:EPG", image: "https://res.cloudinary.com/dglljk9gs/image/upload/v1756176528/file_0000000095e861fa8e42c68a790bb0c3_jqgqjv.png", desc: "Electronic Program Guide", badge: "EPG" },
-         { title: "FORUM", href: "go:Ch", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyvDiKxJAHOezmMbB2Q6t66RhvNAb-nSx4uyqyNPUamA&s=10", desc: "Chats", badge: "Forum" },
-        
+        { title: "FORUM", href: "go:Ch", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyvDiKxJAHOezmMbB2Q6t66RhvNAb-nSx4uyqyNPUamA&s=10", desc: "Chats", badge: "Forum" },
         { title: "MOVIES", href: "go:N", image: "https://variety.com/wp-content/uploads/2019/02/netflix_newlogoanimation.gif", desc: "WATCH MOVIES ON THE GO!", badge: "⭐Featured" },
         { title: "PLUTO TV", href: "go:pluto", image: "https://i.giphy.com/T4uWkBi5pq4IYAAywy.webp", desc: "PLUTO TV", badge: "Featured" },
        { title: "WWE", href: "go:WWE", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkblpVWpsze998MySnArHfPtF3mIFP8KlrFQb4AToZL_b3JZWDbIVjvmby&s=10", desc: "Sports", badge: "Request" },
          { title: "NBA CANADA", href: "go:NBA", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVDXK3g0Lm_5T-ynBFKCMSmgvCyPk4QWTstpRWYyYFzIYWFbkl-UvOk90&s=10", desc: "Sports", badge: "Request" },
        { title: "UFC", href: "go:Ufc", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmSt2Eu4zAEF8_bVvWJS_vAkWFHidMo6g0sPrJ04M9TUdZDObIa7KjG8sY&s=10", desc: "Sports", badge: "Request" },
        { title: "BOXING TV", href: "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/boxing-tv/8d205a30-d00f-457d-978b-265b290eb7e0/0.m3u8", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHItDqM7FpT734IALnidYjSlviJv4lBht72n0R8ek4Ws2Sm1FAcCjlFtM&s=10", desc: "Sports", badge: "Request" },
-       { title: "CCTN47", href: "go:Cctn", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyzO-ZEyvzwrYl9snjS5XzkcC_sCYmU-A1znAuM5eS5Jx1qwU9i-pvowo&s=10", desc: "Religion", badge: "Request" },
-        
+       { title: "CCTN47", href: "go:Cctn", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyzO-ZEyvzwrYl9snjS5XzkcC_sCYmU-A1znAuM5eS5Jx1qwU9i-pvowo&s=10", desc: "Religion", badge: "Request" },   
         { title: "GMA LIFE", href: "go:Gmal", image: "https://aphrodite.gmanetwork.com/international/articles/original/Screen-Shot-2022-07-04-at-2.59_.04-PM__-20220719164417.jpg", desc: "Lifestyle", badge: "Request" },
         { title: "GMA NEWS", href: "go:Gman", image: "https://aphrodite.gmanetwork.com/entertainment/articles/640_480_36_-20221222182720.jpg", desc: "News", badge: "Request" },
         { title: "GMA PINOY TV", href: "go:Gmap", image: "https://aphrodite.gmanetwork.com/entertainment/articles/900_675_Main_Image22_1109_-20221109181156.jpg", desc: "Entertainment", badge: "Request" },
@@ -79,7 +77,6 @@
   { title: "History", href: "go:57", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1RW3MbBcb1GPDaTVhw4R1TW8LoGZVJ62TtBnEdwjjBxmKcSBc5V1GHDRq&s=10", desc: "Documentary", badge: "LIVE" },
   { title: "Discovery Asia", href: "go:58", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-uM7_2NzNo8BPzKxJM-7tgqB-G3G9toQNEvHNKmVWlOQe5wiup2rTN998&s=10", desc: "Documentary", badge: "LIVE" },
     
-
   { title: "Discovery Channel", href: "go:59", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxNJv2VZi-1i_dxUnUkpltCWppw3uzcFHlyqj6ilGPg3km0V8aJWKpD8AF&s=10", desc: "Documentary", badge: "LIVE" },
   { title: "Asian Food Network", href: "go:60", image: "https://i.imgur.com/O5jBcL2.png", desc: "Food & Lifestyle", badge: "LIVE" },
   { title: "CGTN Documentary", href: "go:61", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeqRa22DX-Z511WGTBApMsKpws9zrSvwrGz8WUK-xCfiomkCyW-QvlbIww&s=10", desc: "Documentary", badge: "LIVE" },
