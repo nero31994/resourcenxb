@@ -5,7 +5,9 @@
         { title: "FORUM", href: "go:Ch", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyvDiKxJAHOezmMbB2Q6t66RhvNAb-nSx4uyqyNPUamA&s=10", desc: "Chats", badge: "Forum" },
         { title: "MOVIES", href: "go:N", image: "https://variety.com/wp-content/uploads/2019/02/netflix_newlogoanimation.gif", desc: "WATCH MOVIES ON THE GO!", badge: "⭐Featured" },
         { title: "PLUTO TV", href: "go:pluto", image: "https://i.giphy.com/T4uWkBi5pq4IYAAywy.webp", desc: "PLUTO TV", badge: "Featured" },
-       { title: "WWE", href: "go:WWE", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkblpVWpsze998MySnArHfPtF3mIFP8KlrFQb4AToZL_b3JZWDbIVjvmby&s=10", desc: "Sports", badge: "Request" },
+        { title: "HBO BOXING", href: "go:Hbo1", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc-XjTDkDsaFFwN_0Ptp4J_8ZsnghT04W25zPxIUOKXQ&s=10", desc: "Sports", badge: "Request" },
+        
+        { title: "WWE", href: "go:WWE", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkblpVWpsze998MySnArHfPtF3mIFP8KlrFQb4AToZL_b3JZWDbIVjvmby&s=10", desc: "Sports", badge: "Request" },
          { title: "NBA CANADA", href: "go:NBA", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVDXK3g0Lm_5T-ynBFKCMSmgvCyPk4QWTstpRWYyYFzIYWFbkl-UvOk90&s=10", desc: "Sports", badge: "Request" },
        { title: "UFC", href: "go:Ufc", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmSt2Eu4zAEF8_bVvWJS_vAkWFHidMo6g0sPrJ04M9TUdZDObIa7KjG8sY&s=10", desc: "Sports", badge: "Request" },
        { title: "BOXING TV", href: "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/boxing-tv/8d205a30-d00f-457d-978b-265b290eb7e0/0.m3u8", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHItDqM7FpT734IALnidYjSlviJv4lBht72n0R8ek4Ws2Sm1FAcCjlFtM&s=10", desc: "Sports", badge: "Request" },
